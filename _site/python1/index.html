@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Ejemplo</title>
+  <meta name="description" content="De la misma forma que en el curso, aquí habremos de buscar juntos las herramientas necesarias para afrontar un desafío concreto. A continuación, presentamos ...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/python1/">
+  <link rel="alternate" type="application/rss+xml" title="Talleres web" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Talleres web</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">Nosotros</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/talleres/">Talleres</a>
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Ejemplo</h1>
+    <p class="post-meta"><time datetime="2017-03-31T00:00:00-03:00" itemprop="datePublished">Mar 31, 2017</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Rodrigo Gómez Viana</span></span></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>De la misma forma que en el curso, aquí habremos de buscar juntos las herramientas necesarias para afrontar un desafío concreto. A continuación, presentamos un ejercicio sencillo pero sumamente rutinario: <em>el cálculo del número de Reynols</em>.</p>
+
+<h2 id="actividad-1">Actividad 1</h2>
+
+<hr />
+<p>Determine si el flujo es laminar o turbulento cuando fluye glicerina a 25 °C en una tubería cuyo diámetro interior es de 150 mm. La velocidad promedio es de 3.6 m/s.</p>
+
+<hr />
+
+<p>Lo que debemos hacer en este caso es:</p>
+
+<ol>
+  <li>Definir una función que nos permita calcular el número de Reynolds.</li>
+  <li>Definir las variables a utilizar.</li>
+  <li>Introducir los valores correspondientes y calcular.</li>
+  <li>Dependiendo del valor, el programa debe generar un mensaje acorde al tipo de flujo de que se trate.</li>
+</ol>
+
+<h2 id="funciones">Funciones</h2>
+
+<p>Python cuenta con funciones predefinidas (o <a href="https://docs.python.org/3/library/functions.html">built-in functions</a>), que con frecuencia son de gran utilidad, pero a continuación veremos como definir correctamente nuestra propia función. Los operadores matemáticosmás más comunes son: <code class="highlighter-rouge">+, -, *, **</code> y <code class="highlighter-rouge">/</code>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="k">def</span> <span class="nf">reynolds</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">mu</span><span class="p">):</span>
+      <span class="n">Re_out</span> <span class="o">=</span> <span class="n">v</span><span class="o">*</span><span class="n">D</span><span class="o">*</span><span class="n">rho</span> <span class="o">/</span> <span class="n">mu</span>
+      <span class="k">return</span> <span class="n">Re_out</span></code></pre></figure>
+
+<p>La función que acabamos de definir lleva el nombre de reynolds y sus argumentos se escriben entre paréntesis.
+Para definir correctamente dicha función usamos el comando <code class="highlighter-rouge">def</code>. <strong>Es muy importante no olvidar los dos puntos
+al final de la sentencia</strong>.</p>
+
+<p>Más adelante querremos hacer uso del valor que arroje nuestra función y por lo tanto es necesario que usemos el comando <code class="highlighter-rouge">return</code>. De acuerdo a lo definido hasta aquí la función reynolds devolverá un valor de nombre Re_out, definido en la segunda línea. Es importante respetar la <a href="https://es.wikipedia.org/wiki/Indentaci%C3%B3n">identación</a> para obtener el resultado esperado y recordar que una vez devuelto el valor de una función esta dejará de ser ejecutada inmediatamente. <strong>Cualquier código luego de la sentencia return nunca ocurrirá</strong>.</p>
+
+<h2 id="variables">Variables</h2>
+
+<p>Para evaluar la función <code class="highlighter-rouge">reynolds</code> en un punto; es decir, para que nos arroje un valor, es necesario primero asignar valores a sus variables. A continuación presentamos dos alternativas:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="n">v</span> <span class="o">=</span> <span class="mf">3.6</span> <span class="c"># m/s</span>
+    <span class="n">D</span> <span class="o">=</span> <span class="mf">0.015</span> <span class="c"># m</span>
+    <span class="n">rho</span> <span class="o">=</span> <span class="mi">1258</span> <span class="c"># kg/m3</span>
+    <span class="n">mu</span> <span class="o">=</span> <span class="mf">0.96</span> <span class="c"># Pa s</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="n">v</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese un valor de velocidad en m/s: '</span><span class="p">))</span>
+    <span class="n">D</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor del diámetro interno en m: '</span><span class="p">))</span>
+    <span class="n">rho</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese la densidad en kg/m3: '</span><span class="p">))</span>
+    <span class="n">mu</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese la viscosidad en Pa s: '</span><span class="p">))</span></code></pre></figure>
+
+<p>La primera opción parece mucho más sencilla a simple vista, pero no resulta eficiente cuando los valores se ven modificados frecuentemente. La segunda opción, por otra parte, pide al usuario que ingrese los valores a ocupar cada vez que ejecuta el programa sin necesidad de modificar el código.</p>
+
+<p>En Python 3.x, la función <code class="highlighter-rouge">input</code> transforma los datos ingresados en <code class="highlighter-rouge">strings</code>. Aquí esto no es bueno, pero se soluciona fácilmente por medio de la función <code class="highlighter-rouge">float</code>, que transforma los datos en números reales.</p>
+
+<p>Una vez asginadas las variables, podemos evaluar el número de Reynolds como sigue.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">Re</span> <span class="o">=</span> <span class="n">reynolds</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="n">rho</span><span class="p">,</span> <span class="n">mu</span><span class="p">)</span> <span class="c"># Recordar el orden de las variables.</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">'El número de Reynolds es: '</span><span class="p">,</span> <span class="s">'</span><span class="si">%</span><span class="s">.e3'</span><span class="n">Re</span><span class="p">)</span></code></pre></figure>
+
+<p>Lo que acabamos de hacer es asignar a una variables Re el valor del número de Reynolds, evaluado en las condiciones previamente definidas.</p>
+
+<p>La segunda línea usa la función <code class="highlighter-rouge">print</code> para mostrar el valor calculado, acompañado de un mensaje. En este caso también se ha modificado el formato del número para que se imprima con notación decimal con dos valores después de la coma. No está mal recordar que el código debe tener la suficiente cantidad de comentarios útiles para quienes trabajan con él y que, a su vez, los mensajes y valores arrojados deben ser fácilmente entendibles por el usuario.</p>
+
+<p>Otra forma de mejorar la presentación de los valores calculados es usar la función <code class="highlighter-rouge">round</code>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">    <span class="nb">round</span><span class="p">(</span><span class="n">Re</span><span class="p">)</span> <span class="c"># arroja un número entero</span>
+    <span class="nb">round</span><span class="p">(</span><span class="n">Re</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="c"># arroja un número con dos cifras decimales.</span></code></pre></figure>
+
+<h2 id="condiciones">Condiciones</h2>
+
+<p>Una vez calculado el número de Reynolds es necesario tomar una decisión, o mejor dicho, es necesario que el programa tome una decisión y nos avise con qué tipo de flujo estamos trabajando. Vale recordar que:</p>
+
+<ul>
+  <li>Si el número de Reynolds es menor a 2000, el flujo es laminar.</li>
+  <li>Si el número de Reynolds es mayor a 4000, el flujo es turbulento.</li>
+  <li>Para valores comprendidos entre 2000 y 4000 no es posible predecir el comportamiento.</li>
+</ul>
+
+<p>Ahora queda recordar que en Python contamos con <code class="highlighter-rouge">if, elif, else</code> para llevar a cabo este trabajo.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="k">if</span> <span class="n">Re</span> <span class="o">&lt;</span> <span class="mi">2000</span><span class="p">:</span>
+  	<span class="k">print</span><span class="p">(</span><span class="s">'El flujo es laminar'</span><span class="p">)</span>
+  <span class="k">elif</span> <span class="n">Re</span> <span class="o">&gt;</span> <span class="mi">4000</span><span class="p">:</span>
+  	<span class="k">print</span><span class="p">(</span><span class="s">'El flujo es turbulento'</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+  	<span class="k">print</span><span class="p">(</span><span class="s">'No se puede predecir el comportamiento'</span><span class="p">)</span></code></pre></figure>
+
+<p>Con esto hemos podido armar un programa sencillo, pero que puede ser el primer paso para llevar adelante cálculos más complejos. En el curso te mostraremos como, usando cosas muy sencillas, podremos armar programas muy útiles.</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Talleres web</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Talleres web
+            
+            </li>
+            
+            <li><a href="mailto:talleres.cet.frre@gmail.com">talleres.cet.frre@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

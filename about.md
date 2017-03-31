@@ -21,13 +21,10 @@ material complementario, enlaces de interés y más.
 
 Los actuales miembros de la comisión son:
 
-<ul style="list-style-type: none; text-align: center">
-  <li>Rodrigo Gómez Viana</li>
-  <li>Romina Sansberro</li>
-  <li>Héctor Sarquis Boutros</li>
-  <li>Nicolás Delssin</li>
-  <li>Leonardo Barabas</li>
-  <li>Carla Alvarenga</li>
-  <li>Nicolás López</li>
-  <li>Agustín Ferrario</li>
+<ul style="list-style-type:none; text-align: center">
+{% for member in site.data.members %}
+  <li>
+      {{ member.name }}
+  </li>
+{% endfor %}
 </ul>

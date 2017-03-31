@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-31T13:12:26-03:00</updated><id>http://localhost:4000/</id><title type="html">Talleres web</title><subtitle>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
+</subtitle><entry><title type="html">Detalles del curso</title><link href="http://localhost:4000/taninos1/" rel="alternate" type="text/html" title="Detalles del curso" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/taninos1</id><content type="html" xml:base="http://localhost:4000/taninos1/">&lt;p&gt;La Dra. Luna, ingeniera agrónoma especializada en Recursos Naturales nos ofrece
+compartir sus conocimientos en un curso que persigue los siguientes objetivos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comprender las características químicas de los taninos: propiedades estructurales y clasificación.&lt;/li&gt;
+  &lt;li&gt;Conocer la fuente de obtención de los taninos y sus derivados.&lt;/li&gt;
+  &lt;li&gt;Adquirir conocimientos en el proceso de obtención del producto y
+ destreza en el manejo de los aparatos de laboratorio que la involucran.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Para participar de él, los requisitos mínimos son:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ser alumno regular de la carrera de Ingeniería Química en la Facultad Regional
+Resistencia.&lt;/li&gt;
+  &lt;li&gt;Haber regularizado Química Orgánica.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El curso dedicará 20 hs a clases teórico-prácticas y adicionalmente contará con
+una visita a la Empresa UNITAN SAICA. Al finalizar las actividades, los alumnos
+que deseen obtener un certificado deberán cumplir con los requisitos enumerados a
+continuación:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Haber asistido al 80% de las clases y a la visita.&lt;/li&gt;
+  &lt;li&gt;Presentar y aprobar el informe requerido por los docentes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La inscripción se llevará a cabo en dos etapas, primero completando el &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScODaliUsp5UPj-Ru0YA1pHW9rqEcXUKaaRmfTmVYsDVAn8pw/viewform?usp=sf_link&quot;&gt;formulario&lt;/a&gt; y
+abonando luego un arancel de $100 en el CET durante su horario habitual de atención al público.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Cronograma&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Instancia&lt;/th&gt;
+      &lt;th&gt;Día&lt;/th&gt;
+      &lt;th&gt;Detalles&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Inscripción online&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hasta ...&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Pago del arancel&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hasta ...&lt;/td&gt;
+      &lt;td&gt;Se podrá abonar hasta 48 hs antes de comenzar el curso&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase I&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes ...&lt;/td&gt;
+      &lt;td&gt;Desde las ... en AI ...&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase II&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes ...&lt;/td&gt;
+      &lt;td&gt;Desde las ... en AI ...&lt;/td&gt;
+    &lt;/tr&gt;					
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase III&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes ...&lt;/td&gt;
+      &lt;td&gt;Desde las ... en AI ...&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">La Dra. Luna, ingeniera agrónoma especializada en Recursos Naturales nos ofrece compartir sus conocimientos en un curso que persigue los siguientes objetivos:</summary></entry><entry><title type="html">Detalles del curso</title><link href="http://localhost:4000/python2/" rel="alternate" type="text/html" title="Detalles del curso" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/python2</id><content type="html" xml:base="http://localhost:4000/python2/">&lt;p&gt;El curso será dictado por el Ingeniero Nicolás Tortosa, actualmente profesor de la cátedra
+Algoritmos y Estructuras de Datos de la carrera de Ingeniería en Sistemas de Información
+dictada en nuestra casa de estudio; y los contenidos se detallan brevemente a continuación.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Funciones y tipos de datos&lt;/strong&gt;: introduciremos los tipos de datos más comúnes y sus características
+más importantes, veremos algunas de las funciones predefinidas (&lt;em&gt;built-in functions&lt;/em&gt;) que nos ofrece este
+lenguaje  y aprenderemos a definir nuestros propias funciones.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Condicionales&lt;/strong&gt;: nuestras funciones arrojarán resultados que deberemos interpretar de modo que veremos como
+llevar esto a cabo de forma rápida y automatizada.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bucles&lt;/strong&gt;: nos permitirán realizar cálculos repetidos de forma automática.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Librerías&lt;/strong&gt;: junto con las funciones predeterminadas y las definidas por el usuario, las librerías
+nos permitirán llevar a cabo diferentes tipos de da tarea de forma rápida y consistente.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Numpy&lt;/strong&gt; es una librería pensada para facilitar el diseño de programas destinados llevar a cabo
+cálculos matemáticos y el procesamiento de datos.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Matplotlib&lt;/strong&gt;: es una librería pensada para generar gráficos de gran calidad.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La inscripción se realizará en dos instancias, completando el siguiente formulario de &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfho_-mFUnV6GzIS34Kv_bDXH5IlqAwrQoUBoIYFBjTIa1C-Q/viewform?usp=sf_link&quot;&gt;Inscripción&lt;/a&gt; y abonando un arancel de $100 en el CET en su horario de atención habitual.&lt;/p&gt;
+
+&lt;p&gt;Al finalizar el curso se expedirán certificados que avalen la participación de los alumnos que hayan realizado las actividades propuestas.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Cronograma&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Instancia&lt;/th&gt;
+      &lt;th&gt;Día&lt;/th&gt;
+      &lt;th&gt;Detalles&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Inscripción online&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hasta ...&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Pago del arancel&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hasta ...&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase I&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes ...&lt;/td&gt;
+      &lt;td&gt;Desde las ... en AI ...&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase II&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes ...&lt;/td&gt;
+      &lt;td&gt;Desde las ... en AI ...&lt;/td&gt;
+    &lt;/tr&gt;					
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase III&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes ...&lt;/td&gt;
+      &lt;td&gt;Desde las ... en AI ...&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">El curso será dictado por el Ingeniero Nicolás Tortosa, actualmente profesor de la cátedra Algoritmos y Estructuras de Datos de la carrera de Ingeniería en Sistemas de Información dictada en nuestra casa de estudio; y los contenidos se detallan brevemente a continuación.</summary></entry><entry><title type="html">Ejemplo</title><link href="http://localhost:4000/python1/" rel="alternate" type="text/html" title="Ejemplo" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/python1</id><content type="html" xml:base="http://localhost:4000/python1/">&lt;p&gt;De la misma forma que en el curso, aquí habremos de buscar juntos las herramientas necesarias para afrontar un desafío concreto. A continuación, presentamos un ejercicio sencillo pero sumamente rutinario: &lt;em&gt;el cálculo del número de Reynols&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;actividad-1&quot;&gt;Actividad 1&lt;/h2&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Determine si el flujo es laminar o turbulento cuando fluye glicerina a 25 °C en una tubería cuyo diámetro interior es de 150 mm. La velocidad promedio es de 3.6 m/s.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Lo que debemos hacer en este caso es:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Definir una función que nos permita calcular el número de Reynolds.&lt;/li&gt;
+  &lt;li&gt;Definir las variables a utilizar.&lt;/li&gt;
+  &lt;li&gt;Introducir los valores correspondientes y calcular.&lt;/li&gt;
+  &lt;li&gt;Dependiendo del valor, el programa debe generar un mensaje acorde al tipo de flujo de que se trate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;funciones&quot;&gt;Funciones&lt;/h2&gt;
+
+&lt;p&gt;Python cuenta con funciones predefinidas (o &lt;a href=&quot;https://docs.python.org/3/library/functions.html&quot;&gt;built-in functions&lt;/a&gt;), que con frecuencia son de gran utilidad, pero a continuación veremos como definir correctamente nuestra propia función. Los operadores matemáticosmás más comunes son: &lt;code class=&quot;highlighter-rouge&quot;&gt;+, -, *, **&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reynolds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;Re_out&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Re_out&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;La función que acabamos de definir lleva el nombre de reynolds y sus argumentos se escriben entre paréntesis.
+Para definir correctamente dicha función usamos el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;def&lt;/code&gt;. &lt;strong&gt;Es muy importante no olvidar los dos puntos
+al final de la sentencia&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Más adelante querremos hacer uso del valor que arroje nuestra función y por lo tanto es necesario que usemos el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt;. De acuerdo a lo definido hasta aquí la función reynolds devolverá un valor de nombre Re_out, definido en la segunda línea. Es importante respetar la &lt;a href=&quot;https://es.wikipedia.org/wiki/Indentaci%C3%B3n&quot;&gt;identación&lt;/a&gt; para obtener el resultado esperado y recordar que una vez devuelto el valor de una función esta dejará de ser ejecutada inmediatamente. &lt;strong&gt;Cualquier código luego de la sentencia return nunca ocurrirá&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;variables&quot;&gt;Variables&lt;/h2&gt;
+
+&lt;p&gt;Para evaluar la función &lt;code class=&quot;highlighter-rouge&quot;&gt;reynolds&lt;/code&gt; en un punto; es decir, para que nos arroje un valor, es necesario primero asignar valores a sus variables. A continuación presentamos dos alternativas:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.6&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# m/s&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.015&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# m&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1258&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# kg/m3&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.96&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Pa s&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Ingrese un valor de velocidad en m/s: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Ingrese el valor del diámetro interno en m: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Ingrese la densidad en kg/m3: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Ingrese la viscosidad en Pa s: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;La primera opción parece mucho más sencilla a simple vista, pero no resulta eficiente cuando los valores se ven modificados frecuentemente. La segunda opción, por otra parte, pide al usuario que ingrese los valores a ocupar cada vez que ejecuta el programa sin necesidad de modificar el código.&lt;/p&gt;
+
+&lt;p&gt;En Python 3.x, la función &lt;code class=&quot;highlighter-rouge&quot;&gt;input&lt;/code&gt; transforma los datos ingresados en &lt;code class=&quot;highlighter-rouge&quot;&gt;strings&lt;/code&gt;. Aquí esto no es bueno, pero se soluciona fácilmente por medio de la función &lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;, que transforma los datos en números reales.&lt;/p&gt;
+
+&lt;p&gt;Una vez asginadas las variables, podemos evaluar el número de Reynolds como sigue.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;n&quot;&gt;Re&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reynolds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rho&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Recordar el orden de las variables.&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'El número de Reynolds es: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;.e3'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Lo que acabamos de hacer es asignar a una variables Re el valor del número de Reynolds, evaluado en las condiciones previamente definidas.&lt;/p&gt;
+
+&lt;p&gt;La segunda línea usa la función &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; para mostrar el valor calculado, acompañado de un mensaje. En este caso también se ha modificado el formato del número para que se imprima con notación decimal con dos valores después de la coma. No está mal recordar que el código debe tener la suficiente cantidad de comentarios útiles para quienes trabajan con él y que, a su vez, los mensajes y valores arrojados deben ser fácilmente entendibles por el usuario.&lt;/p&gt;
+
+&lt;p&gt;Otra forma de mejorar la presentación de los valores calculados es usar la función &lt;code class=&quot;highlighter-rouge&quot;&gt;round&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;    &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# arroja un número entero&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# arroja un número con dos cifras decimales.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;condiciones&quot;&gt;Condiciones&lt;/h2&gt;
+
+&lt;p&gt;Una vez calculado el número de Reynolds es necesario tomar una decisión, o mejor dicho, es necesario que el programa tome una decisión y nos avise con qué tipo de flujo estamos trabajando. Vale recordar que:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Si el número de Reynolds es menor a 2000, el flujo es laminar.&lt;/li&gt;
+  &lt;li&gt;Si el número de Reynolds es mayor a 4000, el flujo es turbulento.&lt;/li&gt;
+  &lt;li&gt;Para valores comprendidos entre 2000 y 4000 no es posible predecir el comportamiento.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ahora queda recordar que en Python contamos con &lt;code class=&quot;highlighter-rouge&quot;&gt;if, elif, else&lt;/code&gt; para llevar a cabo este trabajo.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Re&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'El flujo es laminar'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Re&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'El flujo es turbulento'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'No se puede predecir el comportamiento'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Con esto hemos podido armar un programa sencillo, pero que puede ser el primer paso para llevar adelante cálculos más complejos. En el curso te mostraremos como, usando cosas muy sencillas, podremos armar programas muy útiles.&lt;/p&gt;</content><author><name>Rodrigo Gómez Viana</name></author><summary type="html">De la misma forma que en el curso, aquí habremos de buscar juntos las herramientas necesarias para afrontar un desafío concreto. A continuación, presentamos un ejercicio sencillo pero sumamente rutinario: el cálculo del número de Reynols.</summary></entry><entry><title type="html">Tecnología de los taninos</title><link href="http://localhost:4000/taninos/" rel="alternate" type="text/html" title="Tecnología de los taninos" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/taninos</id><content type="html" xml:base="http://localhost:4000/taninos/">&lt;style&gt;
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+&lt;/style&gt;
+
+&lt;p&gt;En esta oportunidad la comisión invita a los alumnos de la carrera de &lt;strong&gt;Ingeniería
+Química&lt;/strong&gt; de nuestra facultad a participar de un curso centrado en los taninos,
+desde su obtención hasta su procesamiento industrial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/taninos.jpg&quot; alt=&quot;Taninos&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El curso será dictado por la &lt;a href=&quot;https://ar.linkedin.com/pub/claudia-luna/3b/a38/bb2&quot;&gt;Dra. Claudia Luna&lt;/a&gt;, ingeniera agrónoma actualmente docente
+de la facultad de agronomía de la UNNE. La modalidad teórica-práctica es la norma
+en nuestro cursos y en este caso la introducción teŕoica se verá afianzada con experiencias
+en laboratorio y una visita a la Empresa UNITAN SAICA, ubicada en Puerto Tirol.&lt;/p&gt;
+
+&lt;p&gt;Si estás interesado no dudes en &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScODaliUsp5UPj-Ru0YA1pHW9rqEcXUKaaRmfTmVYsDVAn8pw/viewform?usp=sf_link&quot;&gt;inscribirte&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;También tenemos preparada &lt;a href=&quot;/taninos1/&quot;&gt;más información&lt;/a&gt; referida al docente, las características del curso,
+el cronograma y más.&lt;/p&gt;
+
+&lt;div style=&quot;font-family: 'Permanent Marker', cursive; text-align: right&quot;&gt;¡Te esperamos!&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Introducción a Python</title><link href="http://localhost:4000/python/" rel="alternate" type="text/html" title="Introducción a Python" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/python</id><content type="html" xml:base="http://localhost:4000/python/">&lt;style&gt;
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+&lt;/style&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Python es un lenguaje de programación que se distribuye de forma libre y gratuita,
+altamente recomendado como primer lenguaje de programación debido a su sintaxis
+relativamente sencilla. Nos ofrece además diferentes librerías para
+llevar a cabo variadas actividades, como ser
+realizar cálculos matemáticos eficientemente,
+confeccionar gráficos de gran calidad y
+manipular datos cómodamente.&lt;/p&gt;
+
+&lt;p&gt;Este curso, pensando especialmente para alumnos de las carreras de
+&lt;strong&gt;Ingeniería Química e Ingeniería Electromecánica&lt;/strong&gt; dictadas en nuestra facultad,
+introducirá al alumno en los conceptos básicos por medio de una introducción teórica y
+especialmente mediante ejemplos interactivos y ejercitación orientada a casos sencillos.&lt;/p&gt;
+
+&lt;p&gt;Aprender a trabajar con Python no es difícil y es una manera de aprender a plantear y resolver
+problemas de forma más ordenada, fijar conceptos y dar lugar a una mejor interpretación de los resultados.&lt;/p&gt;
+
+&lt;p&gt;Si estás interesado no dudes en &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfho_-mFUnV6GzIS34Kv_bDXH5IlqAwrQoUBoIYFBjTIa1C-Q/viewform?usp=sf_link&quot;&gt;inscribirte&lt;/a&gt;, pero si no estás seguro de qué se trata o en qué te puede servir, te invitamos a leer &lt;a href=&quot;/python1/&quot;&gt;aquí&lt;/a&gt; lo que hemos preparado para vos. Para conocer más detalles del curso también tenemos preparada &lt;a href=&quot;/python2/&quot;&gt;más información&lt;/a&gt; referida al docente, los contenidos, el cronograma y más.&lt;/p&gt;
+
+&lt;div style=&quot;font-family: 'Permanent Marker', cursive; text-align: right&quot;&gt;¡Te esperamos!&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/03/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-28T13:43:31-03:00</published><updated>2017-03-28T13:43:31-03:00</updated><id>http://localhost:4000/jekyll/update/2017/03/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/03/28/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
