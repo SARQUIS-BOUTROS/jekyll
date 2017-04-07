@@ -197,6 +197,20 @@ tbody:hover tr:hover td {
 	color: #444;
 	text-shadow: 0 1px 0 #fff;
 }
+/** para el encabezado*/
+.invento {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  padding-top: 10%;
+  padding-right: 0 ;
+  padding-left: 10%;
+position: relative;}
+  @media screen and (max-width: 800px) {
+    .invento {
+      max-width: -webkit-calc(800px - (10px));
+      max-width: calc(800px - (10px));
+      padding-right: 15px;
+      padding-left: 15px; } }
 
 /**
  * Wrapper
@@ -204,10 +218,9 @@ tbody:hover tr:hover td {
 .wrapper {
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   padding-right: 30px;
-  padding-left: 30px; }
+  padding-left: 15px; }
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
@@ -240,7 +253,7 @@ tbody:hover tr:hover td {
   background-size: cover;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 300px;
+  min-height: 200px;
   position: relative; }
 
 .site-title {
@@ -261,14 +274,14 @@ tbody:hover tr:hover td {
     display: none; }
   .site-nav .page-link {
     color: #111;
-    line-height: 1.5; }
+    line-height: 1.5px; }
     .site-nav .page-link:not(:last-child) {
-      margin-right: 20px; }
+      margin-right: 0px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
       top: 9px;
-      right: 15px;
+      right: 5px;
       background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
