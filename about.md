@@ -30,16 +30,3 @@ Los actuales miembros de la comisión son:
 </ul>
 
 <p style='font-size: 18px; text-align: center'>¡No dudes en comnunicarte con nosotros enviando un mensajes con tus dudas y sugerencias!</p>
-<form method="POST"
-      action="https://www.formingo.co/submit/talleres.cet.frre@gmail.com">
-Nombre completo:<br>
-    <input type="text" name="Nombre completo"><br>
-Email: <br>
-    <input type="email" name="__replyto"><br>
-Mensaje: <br>
-    <input type="text" name="Mensaje" size="50"><br>
-
-   <!-- <input type="hidden" name="__redirect" value="/about/">
-
-    <input type="submit" value="Enviar">
-</form>
