@@ -2,22 +2,25 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+      <link href="/assets/BS/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
   <body>
 
     {% include header.html %}
 
+
     <main class="page-content" aria-label="Content">
 
-      <div class="wrapper">
-        {{ content }}
+            <div class="wrapper">
+              {{ content }}
+            </div>
 
-      </div>
-      <div align="center">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyWWXkmswz2HpPSf7lSr0K51yg5sYgNwd2t13O2LlWz8CzRg/viewform?embedded=true" width="auto" height="1000" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
-      </div>
+
 
     </main>
+
+
+
 
     {% include footer.html %}
 
