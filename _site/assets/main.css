@@ -200,6 +200,7 @@ tbody:hover tr:hover td {
 /** para el encabezado*/
 .invento {
 width: auto;
+  padding-top: 2%;
   padding-right: 10% ;
   padding-left: 10%;
 
