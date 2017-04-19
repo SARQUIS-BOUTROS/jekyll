@@ -109,8 +109,8 @@ pre {
  	box-shadow: inset 0 1px 0 #fff;
  	font-size: 12px;
  	line-height: 24px;
- 	margin: 30px auto;
- 	text-align: left;
+ 	margin:auto;
+ 	text-align: center;
  	width: 800px;
  }
 
@@ -125,7 +125,8 @@ pre {
   font-weight: bold;
 	padding: 10px 15px;
 	position: relative;
-	text-shadow: 0 1px 0 #000;
+	text-shadow: 0px 1px 0 #000;
+  text-align-last: center;
 }
 
 th:after {
@@ -170,6 +171,7 @@ td:last-child {
 
 tr {
 	background: url(http://jackrugile.com/images/misc/noise-diagonal.png);
+
 }
 
 tr:nth-child(odd) td {
@@ -224,7 +226,8 @@ width: auto;
   padding-left: 10%; }
   @media screen and (max-width: 800px) {
     .wrapper {
-width: auto;
+      width: auto;
+
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -314,13 +317,16 @@ width: auto;
  * Site footer
  */
 .site-footer {
-  background: url(/assets/img/Header.jpg) center center;
+  background: url(/assets/img/footer.jpg) center center;
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding-bottom: 10%
+
+
+  }
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 15px; }
+  margin-bottom: 0px; }
 
 .contact-list,
 .social-media-list {
