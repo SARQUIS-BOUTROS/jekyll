@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-10T16:57:44-03:00</updated><id>http://localhost:4000/</id><title type="html">Talleres web</title><subtitle>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-19T00:19:59-03:00</updated><id>http://localhost:4000/</id><title type="html">Talleres web</title><subtitle>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
 </subtitle><entry><title type="html">Detalles del curso</title><link href="http://localhost:4000/taninos1/" rel="alternate" type="text/html" title="Detalles del curso" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/taninos1</id><content type="html" xml:base="http://localhost:4000/taninos1/">&lt;p&gt;La Dra. Luna, ingeniera agrónoma especializada en Recursos Naturales nos ofrece
 compartir sus conocimientos en un curso que persigue los siguientes objetivos:&lt;/p&gt;
 
@@ -244,7 +244,7 @@ el cronograma y más.&lt;/p&gt;
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 &lt;/style&gt;
 
-&lt;p&gt;&lt;a title=&quot;Python&quot; href=&quot;/python/&quot;&gt; &lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;a title=&quot;Python&quot; href=&quot;/python/&quot;&gt; &lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/a&gt; &lt;/div&gt;
 
 &lt;p&gt;Este curso, pensando especialmente para alumnos de las carreras de
 &lt;strong&gt;Ingeniería Química e Ingeniería Electromecánica&lt;/strong&gt; dictadas en nuestra facultad,
