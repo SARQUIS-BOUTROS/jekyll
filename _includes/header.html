@@ -1,20 +1,32 @@
 <header class="site-header">
+  <div align="center">
   <div class="Main-box">
-    <p class="Main-text">
+    <p class="Main-text" style="font-family: 'Oswald', sans-serif;">
       talleres cet
     </p>
   </div>
-
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Oswald:700');
+  </style>
+<div>
     <ul class="site-bar">
+
       <li class="site-bar">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-            <a class="site-bar" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
+          <a class="site-bar" href="{{ my_page.url | relative_url }}" style="font-family: 'Oswald', sans-serif;">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </li>
       <li class="site-bar">
-        <a class="site-bar" href="/">inicio</a>
+        <a class="site-bar" href="/" style="font-family: 'Oswald', sans-serif;">inicio</a>
       </li>
-    </ul>
+      </ul>
+
+
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/assets/BS/js/bootstrap.min.js"></script>
 </header>
