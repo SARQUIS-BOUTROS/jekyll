@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-30T20:42:52-03:00</updated><id>http://localhost:4000/</id><title type="html">Talleres web</title><subtitle>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
 </subtitle><entry><title type="html">Autocad</title><link href="http://localhost:4000/autocad/" rel="alternate" type="text/html" title="Autocad" /><published>2017-04-19T00:00:00-03:00</published><updated>2017-04-19T00:00:00-03:00</updated><id>http://localhost:4000/autocad</id><content type="html" xml:base="http://localhost:4000/autocad/">&lt;style&gt;
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
@@ -81,6 +82,8 @@
     
   &lt;/tbody&gt;
 &lt;/table&gt;</content><author><name></name></author><summary type="html">Este curso surgió como una idea para ayudar especialmente a aquellos que, para finalizar con éxito su práctica supervisada o bien cumplir con las consignas del proyecto final, necesitan confeccionar dibujos técnicos. La herramienta más habitual para esta tarea es AutoCAD, y en este taller te proponemos traer lo que tengas hecho, croquis o plano sin acabar, para poder trabajar juntos. Para aquellos, a quienes simplemente les interesa practicar, les ofreceremos ejemplos así que no duden en participar. Temario sintético Conceptos básicos: configuración, sistema de coordenadas y capas. Herramientas: dibujo y entidades. Tipografı́a: configuración de textos y sus aplicaciones . Edición: trabajar con objetos y con bloques. Patrones de sombreado y rayado. Coordenadas: cartesiana e isométrica. Imágenes: inserción y recorte. Cotas: Configuración y distintos tipos. Presentación: espacio papel y ventanas gráficas. Impresión: escalas, plumilla y trazado. La inscripción se realizará en dos instancias, completando el siguiente formulario de Inscripción y abonando un arancel de $100 en el CET en su horario de atención habitual. El arancel tiene como objetivos cubrir los costos del coffee break, la impresión de certificados, generar recursos para actividades a realizarse en el futuro y mejorar el servicio de atención del centro de estudiantes. Cronograma Instancia Día Detalles Inscripción online Hasta el martes 02/05/2017 Cupo para 20 personas. Pago del arancel Hasta el mieŕcoles 03/05/2017 Clase 1 Viernes 05/05/2017 de 9:15 a 11:45 en el AI 3. Clase 2 Viernes 12/05/2017 de 9:15 a 11:45 en el AI 3. Clase 3 Viernes 19/05/2017 de 9:15 a 11:45 en el AI 3. Clase 4 Viernes 26/05/2017 de 9:15 a 11:45 en el AI 3.</summary></entry><entry><title type="html">Detalles del curso</title><link href="http://localhost:4000/taninos1/" rel="alternate" type="text/html" title="Detalles del curso" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/taninos1</id><content type="html" xml:base="http://localhost:4000/taninos1/">&lt;p&gt;La Dra. Luna, ingeniera agrónoma especializada en Recursos Naturales nos ofrece
+
+
 compartir sus conocimientos en un curso que persigue los siguientes objetivos:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -326,6 +329,13 @@ el cronograma y más.&lt;/p&gt;
 &lt;/style&gt;
 
 &lt;div align=&quot;center&quot;&gt;&lt;a title=&quot;Python&quot; href=&quot;/python/&quot;&gt; &lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;Este curso, pensando especialmente para alumnos de las carreras de
+&lt;strong&gt;Ingeniería Química e Ingeniería Electromecánica&lt;/strong&gt; dictadas en nuestra facultad,
+introducirá al alumno en los conceptos básicos por medio de una introducción teórica y
+especialmente mediante ejemplos interactivos y ejercitación orientada a casos sencillos.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Este curso, pensando especialmente para alumnos de las carreras de
 &lt;strong&gt;Ingeniería Química e Ingeniería Electromecánica&lt;/strong&gt; dictadas en nuestra facultad,
