@@ -1,5 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-30T20:47:57-03:00</updated><id>http://localhost:4000/</id><title type="html">Talleres web</title><subtitle>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
-</subtitle><entry><title type="html">Detalles del curso</title><link href="http://localhost:4000/taninos1/" rel="alternate" type="text/html" title="Detalles del curso" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/taninos1</id><content type="html" xml:base="http://localhost:4000/taninos1/">&lt;p&gt;La Dra. Luna, ingeniera agrónoma especializada en Recursos Naturales nos ofrece
+
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-30T20:42:52-03:00</updated><id>http://localhost:4000/</id><title type="html">Talleres web</title><subtitle>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
+</subtitle><entry><title type="html">Autocad</title><link href="http://localhost:4000/autocad/" rel="alternate" type="text/html" title="Autocad" /><published>2017-04-19T00:00:00-03:00</published><updated>2017-04-19T00:00:00-03:00</updated><id>http://localhost:4000/autocad</id><content type="html" xml:base="http://localhost:4000/autocad/">&lt;style&gt;
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+&lt;/style&gt;
+
+&lt;p&gt;&lt;strong&gt;¿Estás haciendo tu PS o tu proyecto final, o simplemente querés recordar cómo trabajar con autocad?&lt;/strong&gt; Este taller es para vos.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;a title=&quot;Python&quot; href=&quot;/autocad/&quot;&gt; &lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/a&gt; &lt;/div&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Autocad es la herramienta habitual a la hora confeccionar planos de instalaciones y equipos, y por esta razón, la comisión de talleres del centro de estudiantes te propone este taller, para recordar un poco de todo y así poder afrontar mejor tus proyectos.&lt;/p&gt;
+
+&lt;p&gt;Los detalles te los mostramos en este &lt;a href=&quot;/autocad1&quot;&gt;link&lt;/a&gt;, pero si no hace falta más, acá tenés el &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSd-GWWQ7on6ypoTfMZLBqHYd0zSQSKx6hjSGlKX30HafD8j5w/viewform?usp=sf_link&quot;&gt;formulario de inscripción&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&quot;font-family: 'Permanent Marker', cursive; text-align: right&quot;&gt;¡Te esperamos!&lt;/div&gt;</content><author><name></name></author><summary type="html">¿Estás haciendo tu PS o tu proyecto final, o simplemente querés recordar cómo trabajar con autocad? Este taller es para vos.</summary></entry><entry><title type="html">Autocad</title><link href="http://localhost:4000/autocad1/" rel="alternate" type="text/html" title="Autocad" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/autocad1</id><content type="html" xml:base="http://localhost:4000/autocad1/">&lt;p&gt;Este curso surgió como una idea para ayudar especialmente a aquellos que, para finalizar con éxito su práctica supervisada o bien cumplir con las consignas del proyecto final, necesitan confeccionar dibujos técnicos. La herramienta más habitual para esta tarea es AutoCAD, y en este taller te proponemos traer lo que tengas hecho, croquis o plano sin acabar, para poder trabajar juntos. Para aquellos, a quienes simplemente les interesa practicar, les ofreceremos ejemplos así que no duden en participar.&lt;/p&gt;
+
+&lt;h2 id=&quot;temario-sintético&quot;&gt;Temario sintético&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Conceptos básicos: configuración, sistema de coordenadas y capas.&lt;/li&gt;
+  &lt;li&gt;Herramientas: dibujo y entidades.&lt;/li&gt;
+  &lt;li&gt;Tipografı́a: configuración de textos y sus aplicaciones .&lt;/li&gt;
+  &lt;li&gt;Edición: trabajar con objetos y con bloques.&lt;/li&gt;
+  &lt;li&gt;Patrones de sombreado y rayado.&lt;/li&gt;
+  &lt;li&gt;Coordenadas: cartesiana e isométrica.&lt;/li&gt;
+  &lt;li&gt;Imágenes: inserción y recorte.&lt;/li&gt;
+  &lt;li&gt;Cotas: Configuración y distintos tipos.&lt;/li&gt;
+  &lt;li&gt;Presentación: espacio papel y ventanas gráficas.&lt;/li&gt;
+  &lt;li&gt;Impresión: escalas, plumilla y trazado.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;La inscripción se realizará en dos instancias, completando el siguiente formulario de &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSd-GWWQ7on6ypoTfMZLBqHYd0zSQSKx6hjSGlKX30HafD8j5w/viewform?usp=sf_link&quot;&gt;Inscripción&lt;/a&gt; y abonando un arancel de $100 en el CET en su horario de atención habitual. El arancel tiene como objetivos cubrir los costos del coffee break, la impresión de certificados, generar recursos para actividades a realizarse en el futuro y mejorar el servicio de atención del centro de estudiantes.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Cronograma&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Instancia&lt;/th&gt;
+      &lt;th&gt;Día&lt;/th&gt;
+      &lt;th&gt;Detalles&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Inscripción online&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hasta el martes 02/05/2017&lt;/td&gt;
+      &lt;td&gt;Cupo para 20 personas.&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Pago del arancel&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Hasta el mieŕcoles 03/05/2017&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase 1&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes 05/05/2017&lt;/td&gt;
+      &lt;td&gt;de 9:15 a 11:45 en el AI 3.&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase 2&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes 12/05/2017&lt;/td&gt;
+      &lt;td&gt;de 9:15 a 11:45 en el AI 3.&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase 3&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes 19/05/2017&lt;/td&gt;
+      &lt;td&gt;de 9:15 a 11:45 en el AI 3.&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Clase 4&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Viernes 26/05/2017&lt;/td&gt;
+      &lt;td&gt;de 9:15 a 11:45 en el AI 3.&lt;/td&gt;
+    &lt;/tr&gt;
+    
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">Este curso surgió como una idea para ayudar especialmente a aquellos que, para finalizar con éxito su práctica supervisada o bien cumplir con las consignas del proyecto final, necesitan confeccionar dibujos técnicos. La herramienta más habitual para esta tarea es AutoCAD, y en este taller te proponemos traer lo que tengas hecho, croquis o plano sin acabar, para poder trabajar juntos. Para aquellos, a quienes simplemente les interesa practicar, les ofreceremos ejemplos así que no duden en participar. Temario sintético Conceptos básicos: configuración, sistema de coordenadas y capas. Herramientas: dibujo y entidades. Tipografı́a: configuración de textos y sus aplicaciones . Edición: trabajar con objetos y con bloques. Patrones de sombreado y rayado. Coordenadas: cartesiana e isométrica. Imágenes: inserción y recorte. Cotas: Configuración y distintos tipos. Presentación: espacio papel y ventanas gráficas. Impresión: escalas, plumilla y trazado. La inscripción se realizará en dos instancias, completando el siguiente formulario de Inscripción y abonando un arancel de $100 en el CET en su horario de atención habitual. El arancel tiene como objetivos cubrir los costos del coffee break, la impresión de certificados, generar recursos para actividades a realizarse en el futuro y mejorar el servicio de atención del centro de estudiantes. Cronograma Instancia Día Detalles Inscripción online Hasta el martes 02/05/2017 Cupo para 20 personas. Pago del arancel Hasta el mieŕcoles 03/05/2017 Clase 1 Viernes 05/05/2017 de 9:15 a 11:45 en el AI 3. Clase 2 Viernes 12/05/2017 de 9:15 a 11:45 en el AI 3. Clase 3 Viernes 19/05/2017 de 9:15 a 11:45 en el AI 3. Clase 4 Viernes 26/05/2017 de 9:15 a 11:45 en el AI 3.</summary></entry><entry><title type="html">Detalles del curso</title><link href="http://localhost:4000/taninos1/" rel="alternate" type="text/html" title="Detalles del curso" /><published>2017-03-31T00:00:00-03:00</published><updated>2017-03-31T00:00:00-03:00</updated><id>http://localhost:4000/taninos1</id><content type="html" xml:base="http://localhost:4000/taninos1/">&lt;p&gt;La Dra. Luna, ingeniera agrónoma especializada en Recursos Naturales nos ofrece
+
+
 compartir sus conocimientos en un curso que persigue los siguientes objetivos:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -244,7 +328,14 @@ el cronograma y más.&lt;/p&gt;
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 &lt;/style&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;a title=&quot;Python&quot; href=&quot;/python/&quot;&gt; &lt;img src=&quot;/assets/img/python.png&quot; alt=&quot;Python&quot; /&gt;&lt;/a&gt; &lt;/div&gt;
+
+&lt;p&gt;Este curso, pensando especialmente para alumnos de las carreras de
+&lt;strong&gt;Ingeniería Química e Ingeniería Electromecánica&lt;/strong&gt; dictadas en nuestra facultad,
+introducirá al alumno en los conceptos básicos por medio de una introducción teórica y
+especialmente mediante ejemplos interactivos y ejercitación orientada a casos sencillos.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Este curso, pensando especialmente para alumnos de las carreras de
 &lt;strong&gt;Ingeniería Química e Ingeniería Electromecánica&lt;/strong&gt; dictadas en nuestra facultad,

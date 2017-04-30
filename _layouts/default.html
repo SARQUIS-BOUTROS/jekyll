@@ -2,19 +2,24 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
+      <link href="/assets/BS/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
 
   <body>
 
     {% include header.html %}
 
+
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+
+            <div class="wrapper">
+              {{ content }}
+            </div>
+
     </main>
-
+<div id="footer">
     {% include footer.html %}
-
+</div>
   </body>
 
 </html>

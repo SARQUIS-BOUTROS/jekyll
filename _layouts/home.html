@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="home">
+  <div class="row">
+    <div class="col-md-8">
 
   <h1 class="page-heading">Noticias</h1>
 
@@ -15,34 +17,25 @@ layout: default
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
           <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h2>
-          
+
           {{ post.excerpt }}
+
         </li>
       {% endif %}
     {% endfor %}
   </ul>
-  
-  <div class="contact-form">
-<form method="POST"
-      action="https://www.formingo.co/submit/talleres.cet.frre@gmail.com">
-
-<p style='font-size: 20px; text-align: center'>¡No dudes en comnunicarte con nosotros enviando un mensajes con tus dudas y sugerencias!</p>
-
-Nombre completo:<br>
-    <input type="text" name="Nombre completo"><br>
-Email: <br>
-    <input type="email" name="__replyto"><br>
-Mensaje: <br>
-    <input type="text" name="Mensaje" size="70"><br>
-
-    <!-- <input type="hidden" name="__redirect" value="/about/"> -->
-
-    <input type="submit" value="Enviar">
-</form>
 </div>
-  
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<div class="col-md-4" align="center">
+    <script type="text/javascript" src="https://form.jotformz.com/jsform/71079117491660"></script>
+</div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/assets/BS/js/bootstrap.min.js"></script>
+</div>
+
 
 </div>
