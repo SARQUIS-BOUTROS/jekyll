@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Talleres web</title>
-  <meta name="description" content="Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.">
+  <title>Introducción (Continuación)</title>
+  <meta name="description" content="Tipos de datos En la sección anterior se dijo que python soporta diferentes tipos de datos. En esta sección describiremos brevemente a algunos de ellos. Cade...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/py-intro2/">
   <link rel="alternate" type="application/rss+xml" title="Talleres web" href="/feed.xml">
   
   
@@ -66,26 +66,15 @@
     <main class="page-content" aria-label="Content">
 
             <div class="wrapper">
-              <div class="home">
-  <div class="row">
-    <div class="col-md-8">
+              <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Noticias</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Introducción (Continuación)</h1>
+    <p class="post-meta"><time datetime="2017-05-16T13:43:16-03:00" itemprop="datePublished">May 16, 2017</time></p>
+  </header>
 
-  
-
-
-  <ul class="post-list">
-    
-      
-        <li>
-          <span class="post-meta">May 16, 2017</span>
-
-          <h2>
-              <a class="post-link" href="/py-intro2/">Introducción (Continuación)</a>
-          </h2>
-
-          <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  <div class="post-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 <h1 id="tipos-de-datos">Tipos de datos</h1>
@@ -159,138 +148,10 @@
 <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="nb">dict</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Ana'</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span> <span class="s">'Bruno'</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="s">'Carla'</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> <span class="s">'Otros'</span><span class="p">:</span><span class="mi">4</span><span class="p">}</span></code></pre></figure>
 
 
+  </div>
 
-        </li>
-      
-    
-      
-        <li>
-          <span class="post-meta">May 16, 2017</span>
-
-          <h2>
-              <a class="post-link" href="/py-intro1/">Introducción</a>
-          </h2>
-
-          <h1 id="operaciones-aritméticas">Operaciones aritméticas</h1>
-<p>Python nos permite realizar las operaciones más comúnes: suma, resta, multiplicación, división y potenciación.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span> <span class="c"># Suma</span>
-<span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="c"># Resta</span>
-<span class="mi">1</span> <span class="o">*</span> <span class="mi">2</span> <span class="c"># Multiplicación</span>
-<span class="mi">1</span> <span class="o">/</span> <span class="mi">2</span> <span class="c"># División</span>
-<span class="mi">1</span> <span class="o">**</span> <span class="mi">2</span> <span class="c"># Potenciación</span></code></pre></figure>
-
-<p>Otras operaciones son:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">//</span> <span class="mi">2</span> <span class="c"># Calcula la parte entera del cociente</span>
-<span class="mi">1</span> <span class="o">%</span> <span class="mi">2</span> <span class="c"># Calcula el resto del cociente</span></code></pre></figure>
-
-<p>Si se quiere hacer cálculos sucesivos, es posible almacenar los resultados asignándolos a una variable:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="mf">0.1</span> <span class="o">**</span> <span class="mi">2</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">a</span></code></pre></figure>
-
-<p>La forma de asignar variables mostrada en el bloque anterior es especialmente útil cuando se trabaja con constantes.</p>
-
-<h1 id="tipos-de-números">Tipos de números</h1>
-<p>Como veremos más adelante, python soporta diferentes tipos de datos; uno de ellos son los números, pero no todos los números son iguales. Estos pueden ser:</p>
-
-<ul>
-  <li>Enteros (integer)</li>
-  <li>Decimales (float)</li>
-  <li>Complejos (complex)</li>
-</ul>
-
-<p>Para conocer de qué tipo de dato se trata, python nos ofrece la función <code class="highlighter-rouge">type()</code>, cuyo uso se ilustra en el próximo ejemplo.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="c"># Entero</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="c"># Decimal</span>
-<span class="n">c</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span><span class="n">j</span> <span class="c"># Complejo</span>
-
-<span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></figure>
-
-<p><strong>¿Qué ocurre si operamos con diferentes tipos de datos?</strong> El resultado adopta el tipo de dato con mayor información.</p>
-
-<h1 id="otras-operaciones">Otras operaciones</h1>
-
-<p>Para llevar adelante otro tipos de cálculos, la forma más sencilla es <strong>importar una librería</strong>. Si sólo se trabaja con números reales conviene importar la librería <em>math</em>. Esta librería ofrece funciones y constantes para realizar los cálculos.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="nb">dir</span><span class="p">(</span><span class="n">math</span><span class="p">)</span> <span class="c"># Muestra un directorio de funciones y constantes</span></code></pre></figure>
-
-<p>La primera línea del ejemplo anterior importa todos los elementos de la librería al espacio de trabajo. Existen otras formas de importar, pero por simplicidad se mostró sólo una, pese a que no es la mejor.</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">log</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c"># Calcula el logaritmo natural de 10</span>
-<span class="n">e</span><span class="o">**</span><span class="mi">2</span> <span class="c"># Calcula el cuadrado del número e</span></code></pre></figure>
-
-<p>Si se trabaja con números complejos, la librería <em>cmath</em> ofrece funciones adicionales.</p>
-
-<p><strong>Es altamente recomendable acostumbrarse a leer la documentación de las librerías para conocer un poco mejor qué nos ofrecen y cómo usarlas</strong>. A continuación, enlaces para las documentaciones de las librerías usadas en esta sección.</p>
-
-<ul>
-  <li><a href="https://docs.python.org/2/library/math.html">math</a></li>
-  <li><a href="https://docs.python.org/2/library/cmath.html">cmath</a></li>
-</ul>
-
-<p><a href="/py-intro2/" style="float:right">Siguiente</a></p>
-
-
-        </li>
-      
-    
-      
-        <li>
-          <span class="post-meta">May 15, 2017</span>
-
-          <h2>
-              <a class="post-link" href="/taninos/">Tecnología de los taninos</a>
-          </h2>
-
-          <style>
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-</style>
-
-<p><img src="/assets/img/taninos.jpg" alt="Taninos" /></p>
-
-<p>La comisión invita a los alumnos de la carrera de <strong>Ingeniería
-Química</strong> de nuestra facultad a participar de un curso centrado en los taninos,
-desde su obtención hasta su procesamiento industrial.</p>
-
-
-
-        </li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </ul>
-</div>
-<div class="col-md-4" align="center">
-    <script type="text/javascript" src="https://form.jotformz.com/jsform/71079117491660"></script>
-</div>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="/assets/BS/js/bootstrap.min.js"></script>
-</div>
-
-
-</div>
+  
+</article>
 
             </div>
 

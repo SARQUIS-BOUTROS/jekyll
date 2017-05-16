@@ -38,6 +38,7 @@ Como veremos más adelante, python soporta diferentes tipos de datos; uno de ell
 - Decimales (float)
 - Complejos (complex)
 
+
 Para conocer de qué tipo de dato se trata, python nos ofrece la función `type()`, cuyo uso se ilustra en el próximo ejemplo.
 
 {% highlight python %}
@@ -65,4 +66,13 @@ La primera línea del ejemplo anterior importa todos los elementos de la librer�
 log(10) # Calcula el logaritmo natural de 10
 e**2 # Calcula el cuadrado del número e
 {% endhighlight%}
- 
+
+Si se trabaja con números complejos, la librería _cmath_ ofrece funciones adicionales.
+
+**Es altamente recomendable acostumbrarse a leer la documentación de las librerías para conocer un poco mejor qué nos ofrecen y cómo usarlas**. A continuación, enlaces para las documentaciones de las librerías usadas en esta sección.
+
+- [math](https://docs.python.org/2/library/math.html)
+- [cmath](https://docs.python.org/2/library/cmath.html)
+
+
+<a href='/py-intro2/' style="float:right">Siguiente</a>
