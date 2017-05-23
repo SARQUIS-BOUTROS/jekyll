@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducción (Continuación)"
+title:  "Introducción (continuación)"
 permalink: /py-intro2/
 show: true
 ---
@@ -8,10 +8,7 @@ show: true
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Tipos de datos
-En la sección anterior se dijo que python soporta diferentes tipos de datos. En esta sección describiremos brevemente a algunos de ellos.
-
-## Cadenas de carácteres o _strings_
+# Cadenas de carácteres o _strings_
 Cuando se escribe un código, es común comentar para señalar algo importante. Si los comentarios toman una sola línea, basta con anteponer el símbolo `#`; caso contrario, el texto se encierra en `'''  '''`.
 
 {% highlight python %}
@@ -26,7 +23,7 @@ Python puede también interpretar texto como un tipo de dato y por lo tanto oper
   "b"
 {% endhighlight %}
 
-El uso más común de los _strings_ radica en generar mensajes para el usuario, por medio de la función `print()`.
+La importancia de este tipo de dato radica en que permite principalmente la interacción con el usuario, a partir de mensajes generados por medio de la función `print()`.
 
 {% highlight python %}
   a = 1  
@@ -37,68 +34,69 @@ El uso más común de los _strings_ radica en generar mensajes para el usuario, 
 
 {% endhighlight %}
 
-Cada elemento de un _string_ tiene un índice que va de de cero en adelante, contando de izquierda a derecha.
+## La función _print()_
+Los siguientes ejemplos muestran diferentes formas de usar la función `print()`.
 
 {% highlight python %}
-  palabra = 'Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz'
-  len(palabra) # Cuenta la cantidad de elementos
+a = 1.5
+b = 3.8
+
+c = a * b
+print('El resultado de multiplicar a y b es ', c)
 {% endhighlight %}
 
-La palabra tiene 63 caracteres. A la primera letra le corresponde el índice 0, a la última el índice 62
+Es la forma quizá más sencilla de generar un mensaje. Antes de cerrar la comilla se deja un espacio, para que el valor de c esté separado del resto del texto.
 
 {% highlight python %}
-  palabra[0] # Muetra el elemento en la posición 0
-  palabra[0:4] # Muestra los elementos en las posiciones 0, 1, 2 y 3
-  palabra[:4] # Muestra los elementos en las posiciones 0, 1, 2 y 3
-  palabra[4:] # Muestra los elementos con índice 4 en adelante
+a = 1.5
+b = 3.8
+
+c = a * b
+print('El resultado de multiplicar a y b es', round(c))
 {% endhighlight %}
 
-Lo que acabamos de hacer para trivial, pero en realidad resulta muy importante, especialmente cuando se trabaja con listas. Los intervalos son abiertos a la derecha, es decir, el elemento de índice 4 no aparece en el resultado de las segunda y tercera líneas.
-
-Podemos modificar la palabra:
+La función `round()` redondea el valor de c, por defecto al entero más próximo.
 
 {% highlight python %}
-  palabra[0] = 'r'
-  palabra
+j = 1e5
+k = 13.28
+
+l = j * k
+print('El producto de j y k es', '%.3e'%l)
 {% endhighlight %}
 
-# Listas
-
-Las listas consisten en una sucesión de elementos separados por coma y encerrada en corchetes; bastante parecidas a los strings; puesto que podríamos haber dicho que eran una sucesión de elementos (caracteres letras o números) encerrados en comillas.
+`'%.3e'%` afecta a la variable `l`, para que se muestre con notación científica. En este caso con 3 cifras decimales después de la coma.
 
 {% highlight python %}
-  alumnos = ['Ana', 'Bruno', 'Carla', 'Otros']
-  type(alumnos)
+g = 8
+h = 5
+
+i = g/h
+print(('Si dividimos {} por {}, el resultado es {}').format(g, h, i))
 {% endhighlight %}
 
-Al igual que con los strings, los elementos de una lista tienen asociado un índice.
+Otra forma de mostrar valores es usar el método `format()`, tal y como se muestra en el ejemplo.
+
+## Asignación de variables
+Otra forma de asignar variables es por medio de la función `input()`.
 
 {% highlight python %}
-  alumnos[0] # Arroja el primer elemento de la lista
+  # El móvil se mueve con M.R.U.
+  h0 = input('Ingrese el valor de la posición inicial en m: ')
+  v = input('Ingrese el valor de la velocidad en m/s: ')
+  t = input('Ingrese el valor del tiempo en s: ')
+
+  r = h0 + v*t
+  print('La distancia recorrida por el movil luego de un tiempo t es: ', r)
 {% endhighlight %}
 
-Las listas son objetos con métodos muy útiles, detallados [aquí](https://docs.python.org/3/tutorial/datastructures.html). Un método comúnmente utilizado es `append()`, el cual agrega un elemento nuevo a una lista.
-
-{% highlight python%}
-  alumnos.append('Nuevo') # Agrega el elemento al final de la lista
-  alumnos.insert(3, 'Diego') # Agrega el elemento en la posición de índice 3
-{% endhighlight %}
-
-# Tuplas
-Son también sucesiones de elementos separados por coma, encerrados en paréntesis o solos.
+**Seguramente al ejecutar el código del bloque anterior obtendrás un mensaje de error.** Esto se debe a que el valor ingresado, si bien puede ser un número, es transformado por la función `input()` en un `string`. Esto se soluciona fácilmente, transformando un tipo de dato en otro:
 
 {% highlight python %}
-alumnos = ('Ana', 'Bruno', 'Carla', 'Otros')
-alumnos = 'Ana', 'Bruno', 'Carla', 'Otros' # También es válido obviar los ()
+h0 = float(input('Ingrese el valor de la posición inicial en m: '))
+v = float(input('Ingrese el valor de la velocidad en m/s: '))
+t = float(input('Ingrese el valor del tiempo en s: '))
+
+r = h0 + v*t
+print('La distancia recorrida por el movil luego de un tiempo t es: ', r, 'm/s.')
 {% endhighlight %}
-
-A diferencia de las listas, una tupla no es un objeto que pueda actualizarse en etapas posteriores.
-
-# Diccionarios
-Son sucesiones de elementos separados por coma y encerrados entre llaves, que se diferencian con las listas y tuplas en que sus elementos son pares `key:value`. Supongamos que a cada elemento de la lista alumnos le corresponde un ID numérico.
-
-{% highlight python %}
-  dict = {'Ana':1, 'Bruno':2, 'Carla':3, 'Otros':4}
-{% endhighlight %}
-
-  

@@ -16,7 +16,7 @@
 title: Talleres web
 email: talleres.cet.frre@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Este es el sitio web de la Comisión de Talleres del CET donde encontrarás
+  Este es el sitio web de la Comisión de Talleres del CET, donde encontrarás
   todo lo referido a nuestras actividades.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

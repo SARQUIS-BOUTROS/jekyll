@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Introducción (Continuación)</title>
-  <meta name="description" content="Tipos de datos En la sección anterior se dijo que python soporta diferentes tipos de datos. En esta sección describiremos brevemente a algunos de ellos. Cade...">
+  <title>Introducción (continuación)</title>
+  <meta name="description" content="Cadenas de carácteres o strings Cuando se escribe un código, es común comentar para señalar algo importante. Si los comentarios toman una sola línea, basta c...">
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/py-intro2/">
@@ -30,6 +30,7 @@
   </div>
   <style>
   @import url('https://fonts.googleapis.com/css?family=Graduate');
+  @import url('https://fonts.googleapis.com/css?family=Oswald:500');
   </style>
 <div class="site-nav">
     <ul class="site-bar">
@@ -69,18 +70,15 @@
               <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Introducción (Continuación)</h1>
-    <p class="post-meta"><time datetime="2017-05-16T13:43:16-03:00" itemprop="datePublished">May 16, 2017</time></p>
+    <h1 class="post-title" itemprop="name headline">Introducción (continuación)</h1>
+    <p class="post-meta"><time datetime="2017-05-23T11:36:05-03:00" itemprop="datePublished">May 23, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<h1 id="tipos-de-datos">Tipos de datos</h1>
-<p>En la sección anterior se dijo que python soporta diferentes tipos de datos. En esta sección describiremos brevemente a algunos de ellos.</p>
-
-<h2 id="cadenas-de-carácteres-o-strings">Cadenas de carácteres o <em>strings</em></h2>
+<h1 id="cadenas-de-carácteres-o-strings">Cadenas de carácteres o <em>strings</em></h1>
 <p>Cuando se escribe un código, es común comentar para señalar algo importante. Si los comentarios toman una sola línea, basta con anteponer el símbolo <code class="highlighter-rouge">#</code>; caso contrario, el texto se encierra en <code class="highlighter-rouge">'''  '''</code>.</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Comentarios de una sola línea</span>
@@ -91,7 +89,7 @@
 <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="s">'a'</span>  
   <span class="s">"b"</span></code></pre></figure>
 
-<p>El uso más común de los <em>strings</em> radica en generar mensajes para el usuario, por medio de la función <code class="highlighter-rouge">print()</code>.</p>
+<p>La importancia de este tipo de dato radica en que permite principalmente la interacción con el usuario, a partir de mensajes generados por medio de la función <code class="highlighter-rouge">print()</code>.</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>  
   <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
@@ -99,53 +97,60 @@
 
   <span class="k">print</span><span class="p">(</span><span class="s">'De acuerdo a los valores ingresados de a y b, c es igual a '</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span></code></pre></figure>
 
-<p>Cada elemento de un <em>string</em> tiene un índice que va de de cero en adelante, contando de izquierda a derecha.</p>
+<h2 id="la-función-print">La función <em>print()</em></h2>
+<p>Los siguientes ejemplos muestran diferentes formas de usar la función <code class="highlighter-rouge">print()</code>.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">palabra</span> <span class="o">=</span> <span class="s">'Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz'</span>
-  <span class="nb">len</span><span class="p">(</span><span class="n">palabra</span><span class="p">)</span> <span class="c"># Cuenta la cantidad de elementos</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="mf">1.5</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mf">3.8</span>
 
-<p>La palabra tiene 63 caracteres. A la primera letra le corresponde el índice 0, a la última el índice 62</p>
+<span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'El resultado de multiplicar a y b es '</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">palabra</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c"># Muetra el elemento en la posición 0</span>
-  <span class="n">palabra</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span> <span class="c"># Muestra los elementos en las posiciones 0, 1, 2 y 3</span>
-  <span class="n">palabra</span><span class="p">[:</span><span class="mi">4</span><span class="p">]</span> <span class="c"># Muestra los elementos en las posiciones 0, 1, 2 y 3</span>
-  <span class="n">palabra</span><span class="p">[</span><span class="mi">4</span><span class="p">:]</span> <span class="c"># Muestra los elementos con índice 4 en adelante</span></code></pre></figure>
+<p>Es la forma quizá más sencilla de generar un mensaje. Antes de cerrar la comilla se deja un espacio, para que el valor de c esté separado del resto del texto.</p>
 
-<p>Lo que acabamos de hacer para trivial, pero en realidad resulta muy importante, especialmente cuando se trabaja con listas. Los intervalos son abiertos a la derecha, es decir, el elemento de índice 4 no aparece en el resultado de las segunda y tercera líneas.</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="mf">1.5</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mf">3.8</span>
 
-<p>Podemos modificar la palabra:</p>
+<span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'El resultado de multiplicar a y b es'</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">c</span><span class="p">))</span></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">palabra</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s">'r'</span>
-  <span class="n">palabra</span></code></pre></figure>
+<p>La función <code class="highlighter-rouge">round()</code> redondea el valor de c, por defecto al entero más próximo.</p>
 
-<h1 id="listas">Listas</h1>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">j</span> <span class="o">=</span> <span class="mf">1e5</span>
+<span class="n">k</span> <span class="o">=</span> <span class="mf">13.28</span>
 
-<p>Las listas consisten en una sucesión de elementos separados por coma y encerrada en corchetes; bastante parecidas a los strings; puesto que podríamos haber dicho que eran una sucesión de elementos (caracteres letras o números) encerrados en comillas.</p>
+<span class="n">l</span> <span class="o">=</span> <span class="n">j</span> <span class="o">*</span> <span class="n">k</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'El producto de j y k es'</span><span class="p">,</span> <span class="s">'</span><span class="si">%.3</span><span class="s">e'</span><span class="o">%</span><span class="n">l</span><span class="p">)</span></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">alumnos</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Ana'</span><span class="p">,</span> <span class="s">'Bruno'</span><span class="p">,</span> <span class="s">'Carla'</span><span class="p">,</span> <span class="s">'Otros'</span><span class="p">]</span>
-  <span class="nb">type</span><span class="p">(</span><span class="n">alumnos</span><span class="p">)</span></code></pre></figure>
+<p><code class="highlighter-rouge">'%.3e'%</code> afecta a la variable <code class="highlighter-rouge">l</code>, para que se muestre con notación científica. En este caso con 3 cifras decimales después de la coma.</p>
 
-<p>Al igual que con los strings, los elementos de una lista tienen asociado un índice.</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">g</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">h</span> <span class="o">=</span> <span class="mi">5</span>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">alumnos</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="c"># Arroja el primer elemento de la lista</span></code></pre></figure>
+<span class="n">i</span> <span class="o">=</span> <span class="n">g</span><span class="o">/</span><span class="n">h</span>
+<span class="k">print</span><span class="p">((</span><span class="s">'Si dividimos {} por {}, el resultado es {}'</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span></code></pre></figure>
 
-<p>Las listas son objetos con métodos muy útiles, detallados <a href="https://docs.python.org/3/tutorial/datastructures.html">aquí</a>. Un método comúnmente utilizado es <code class="highlighter-rouge">append()</code>, el cual agrega un elemento nuevo a una lista.</p>
+<p>Otra forma de mostrar valores es usar el método <code class="highlighter-rouge">format()</code>, tal y como se muestra en el ejemplo.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">alumnos</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s">'Nuevo'</span><span class="p">)</span> <span class="c"># Agrega el elemento al final de la lista</span>
-  <span class="n">alumnos</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s">'Diego'</span><span class="p">)</span> <span class="c"># Agrega el elemento en la posición de índice 3</span></code></pre></figure>
+<h2 id="asignación-de-variables">Asignación de variables</h2>
+<p>Otra forma de asignar variables es por medio de la función <code class="highlighter-rouge">input()</code>.</p>
 
-<h1 id="tuplas">Tuplas</h1>
-<p>Son también sucesiones de elementos separados por coma, encerrados en paréntesis o solos.</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># El móvil se mueve con M.R.U.</span>
+  <span class="n">h0</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor de la posición inicial en m: '</span><span class="p">)</span>
+  <span class="n">v</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor de la velocidad en m/s: '</span><span class="p">)</span>
+  <span class="n">t</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor del tiempo en s: '</span><span class="p">)</span>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">alumnos</span> <span class="o">=</span> <span class="p">(</span><span class="s">'Ana'</span><span class="p">,</span> <span class="s">'Bruno'</span><span class="p">,</span> <span class="s">'Carla'</span><span class="p">,</span> <span class="s">'Otros'</span><span class="p">)</span>
-<span class="n">alumnos</span> <span class="o">=</span> <span class="s">'Ana'</span><span class="p">,</span> <span class="s">'Bruno'</span><span class="p">,</span> <span class="s">'Carla'</span><span class="p">,</span> <span class="s">'Otros'</span> <span class="c"># También es válido obviar los ()</span></code></pre></figure>
+  <span class="n">r</span> <span class="o">=</span> <span class="n">h0</span> <span class="o">+</span> <span class="n">v</span><span class="o">*</span><span class="n">t</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">'La distancia recorrida por el movil luego de un tiempo t es: '</span><span class="p">,</span> <span class="n">r</span><span class="p">)</span></code></pre></figure>
 
-<p>A diferencia de las listas, una tupla no es un objeto que pueda actualizarse en etapas posteriores.</p>
+<p><strong>Seguramente al ejecutar el código del bloque anterior obtendrás un mensaje de error.</strong> Esto se debe a que el valor ingresado, si bien puede ser un número, es transformado por la función <code class="highlighter-rouge">input()</code> en un <code class="highlighter-rouge">string</code>. Esto se soluciona fácilmente, transformando un tipo de dato en otro:</p>
 
-<h1 id="diccionarios">Diccionarios</h1>
-<p>Son sucesiones de elementos separados por coma y encerrados entre llaves, que se diferencian con las listas y tuplas en que sus elementos son pares <code class="highlighter-rouge">key:value</code>. Supongamos que a cada elemento de la lista alumnos le corresponde un ID numérico.</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">h0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor de la posición inicial en m: '</span><span class="p">))</span>
+<span class="n">v</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor de la velocidad en m/s: '</span><span class="p">))</span>
+<span class="n">t</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Ingrese el valor del tiempo en s: '</span><span class="p">))</span>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="nb">dict</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Ana'</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span> <span class="s">'Bruno'</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span> <span class="s">'Carla'</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span> <span class="s">'Otros'</span><span class="p">:</span><span class="mi">4</span><span class="p">}</span></code></pre></figure>
+<span class="n">r</span> <span class="o">=</span> <span class="n">h0</span> <span class="o">+</span> <span class="n">v</span><span class="o">*</span><span class="n">t</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'La distancia recorrida por el movil luego de un tiempo t es: '</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="s">'m/s.'</span><span class="p">)</span></code></pre></figure>
 
 
   </div>
@@ -186,7 +191,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Este es el sitio web de la Comisión de Talleres del CET donde encontrarás todo lo referido a nuestras actividades.
+        <p>Este es el sitio web de la Comisión de Talleres del CET, donde encontrarás todo lo referido a nuestras actividades.
 </p>
       </div>
     </div>

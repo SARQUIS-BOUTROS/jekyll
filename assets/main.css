@@ -287,8 +287,8 @@ width: auto;
 
    ul.site-bar {
      list-style-type: none;
-     padding-top: 2%;
-     padding-bottom: 2%;
+     padding-top: 1%;
+     padding-bottom: 1%;
      padding-left: 0%;
      margin:auto;
      overflow: auto;
@@ -358,7 +358,7 @@ width: auto;
           display: none; }
         .site-nav:hover .trigger {
           display: block;
-          padding-bottom: 5px; }
+          padding-bottom: 0px; }
         .site-nav .page-link {
           display: block;
           padding: 5px 10px;
