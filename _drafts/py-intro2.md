@@ -100,3 +100,5 @@ t = float(input('Ingrese el valor del tiempo en s: '))
 r = h0 + v*t
 print('La distancia recorrida por el movil luego de un tiempo t es: ', r, 'm/s.')
 {% endhighlight %}
+
+<a href='/py-intro3/' style="float:right">Siguiente</a>

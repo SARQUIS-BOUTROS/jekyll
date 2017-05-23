@@ -83,6 +83,158 @@
           <span class="post-meta">May 23, 2017</span>
 
           <h2>
+              <a class="post-link" href="/py-condicionales/">Condicionales y bucles</a>
+          </h2>
+
+          <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h1 id="operaciones-de-comparación">Operaciones de comparación</h1>
+<p>Los operadores de comparación en python son: <code class="highlighter-rouge">&lt;, &gt;, &lt;=, &gt;=, ==, !=</code>. Estas operaciones son muy útiles para definir condiciones, como veremos más adelante.</p>
+
+<p>Como operaciones, pueden arrojar dos posibles resultados: <code class="highlighter-rouge">True</code> o <code class="highlighter-rouge">False</code>. Podemos probar escribiendo los siguiente ejemplos en la consola.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="mi">2</span> <span class="o">==</span> <span class="mi">2</span> <span class="c"># Igual</span>
+  <span class="mi">2</span> <span class="o">!=</span> <span class="mi">2</span> <span class="c"># Distinto</span>
+  <span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="c"># Menor que</span>
+  <span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="c"># Menor o igual que</span></code></pre></figure>
+
+<p><strong>True y False son <code class="highlighter-rouge">booleanos</code>, un tipo de variable. También le corresponden los valores 1 y 0, respectivamente.</strong></p>
+
+<p>Las comparaciones se pueden ver afectadas por otros operadores como: <code class="highlighter-rouge">and, or, not</code>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="ow">not</span> <span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="c"># Quiere decir lo contrario de la proposición escrita.</span>
+
+  <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="ow">and</span> <span class="mi">4</span> <span class="o">&lt;</span> <span class="mi">6</span> <span class="c"># Será cierto sólo si ambas proposiciones son verdaderas.</span>
+
+  <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="n">OR</span> <span class="mi">4</span> <span class="o">&gt;</span> <span class="mi">6</span> <span class="c"># Será cierto si al menos una de las proposiciones son verdaderas.</span></code></pre></figure>
+
+<h1 id="condicionales">Condicionales</h1>
+<p>Por medio de condicionales es posible escribir un programa que se adapte a diferentes situaciones. Un ejemplo sencillo es el siguiente:</p>
+
+<p><strong>Dada una lista de elementos arbitrarios, se quiere saber si el elemento <code class="highlighter-rouge">'e'</code> pertenece o no a la lista ingresada. Cualquiera sea el caso, se deberá imprimir un mensaje que informe debidamente al usuario.</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">lista</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="s">'f'</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="s">'e'</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"'e' no es un elemento de la lista."</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"'e' pertenece a la lista."</span><span class="p">)</span></code></pre></figure>
+
+<p>Hay varios puntos por aclarar:</p>
+<ol>
+  <li>Las líneas con las condiciones comienzan con: <code class="highlighter-rouge">if, elif,</code> o <code class="highlighter-rouge">else</code>, y terminan siempre con <code class="highlighter-rouge">:</code>. <code class="highlighter-rouge">if</code> es la primera condición, <code class="highlighter-rouge">elif</code> se ocupa para las siguientes condiciones y <code class="highlighter-rouge">else</code> para todos los casos restantes, si los hubiere.</li>
+  <li>La siguiente línea, después de los <code class="highlighter-rouge">:</code>, indica la acción a realizar en caso de que la condición se cumpla. Algo muy importante es respetar la <code class="highlighter-rouge">identación</code>, es decir, dejar cuatro espacios antes de escribir.</li>
+</ol>
+
+<h1 id="bucles">Bucles</h1>
+<p>Sirven para automatizar ciertas operaciones e iterar.</p>
+<h2 id="bucles-con-for">Bucles con <code class="highlighter-rouge">for</code></h2>
+
+<p>Se utiliza para llevar a cabo una operación para cada uno de los elementos de un conjunto. En el siguiente ejemplo, se generan 10 valores enteros (de 0 a 9) por medio de la función <code class="highlighter-rouge">range()</code>. Para cada uno de esos elementos, se calcula su cuadrado y se almacena su valor en la variable x. En el siguiente paso se agrega el valor de x a la lista y luego de terminado el bucle se la imprime.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Lista vacía</span>
+  <span class="n">lista2</span> <span class="o">=</span> <span class="p">[]</span>
+
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">i</span> <span class="o">**</span> <span class="mi">2</span>
+    <span class="n">lista2</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+  <span class="k">print</span><span class="p">(</span><span class="n">lista2</span><span class="p">)</span></code></pre></figure>
+
+<p><strong>La diferencia entre imprimir la lista completa luego de acabado el bucle o imprimir cada vez que se agrega un valor depende de la identación. En el ejemplo, al no dejar los cuatro espacios, python interpreta que esa sentencia no es parte del bucle y la ejecuta por tanto luego de que este ha terminado.</strong></p>
+
+<h2 id="bucles-con-while">Bucles con <code class="highlighter-rouge">while</code></h2>
+
+<p>Sirven para llevar a cabo operaciones repetidamente, mientras se siga cumpliendo cierta condición. En el siguiente ejemplo, se agregan valores a una lista mientras su cantidad de elementos sea menor a 10. Los valores a agregar empiezan en 0 y aumentan en una unidad.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">lista3</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">lista3</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="n">lista3</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">+=</span><span class="mi">1</span>
+<span class="k">print</span><span class="p">(</span><span class="n">lista3</span><span class="p">)</span></code></pre></figure>
+
+
+
+        </li>
+      
+    
+      
+        <li>
+          <span class="post-meta">May 23, 2017</span>
+
+          <h2>
+              <a class="post-link" href="/py-intro3/">Introducción (continuación)</a>
+          </h2>
+
+          <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h1 id="listas">Listas</h1>
+<p>Al igual que los números y las cadena de carácteres, las listas son un tipo de dato en python. Una lista consiste en un sucesión de elementos (números, carácteres e incluso listas), separados por coma y encerrada por <code class="highlighter-rouge">[]</code>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Ejemplo de lista</span>
+  <span class="n">listaA</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="s">'.1'</span><span class="p">,</span> <span class="s">'.2'</span><span class="p">,</span> <span class="s">'.3'</span><span class="p">]</span></code></pre></figure>
+
+<h2 id="algunas-características-de-listas">Algunas características de listas</h2>
+<ol>
+  <li>Pueden contener elementos de diferentes tipos.</li>
+  <li>A cada elemento le corresponde un índice.</li>
+  <li>Existen <code class="highlighter-rouge">métodos</code> para modificar las listas.</li>
+</ol>
+
+<h3 id="indexación">Indexación</h3>
+<p>Tomando como ejemplo la lista construida previamente, a cada uno de sus elementos le corresponde un índice de acuerdo a su posición. Contando de izquierda a derecha, al primer elemento le corresponde el índice 0.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Para mostrar el elemento de índice 0.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="c"># Para mostrar el elemento en la segunda posición</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span></code></pre></figure>
+
+<p>También se acepta contar de derecha a izquierda, en este caso, al primer elemento le corresponde el índice -1.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Para mostrar el último elemento, o el primero, contando de derecha a izquierda.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+  <span class="c"># Para mostrar el anteúltimo elemento.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span></code></pre></figure>
+
+<p><strong>Es interesante hacer notar que a cada elemento de un <code class="highlighter-rouge">string</code> también le corresponde un índice.</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">string</span> <span class="o">=</span> <span class="s">'Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz'</span>
+  <span class="c"># Primera letra</span>
+  <span class="n">string</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></code></pre></figure>
+
+<p>Por medio de los índices es posible modificar la lista (o string).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Modificar el tercer elemento de la lista.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s">'d'</span></code></pre></figure>
+
+<p>Nos pueden interesar ciertos elementos.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Todos los elementos desde la tercera posición.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+  <span class="c"># Todos los elementos desde la primera posición hasta la cuarta inclusive.</span>
+  <span class="c"># Cuarta posición: índice 3.</span>
+  <span class="c"># El elemento de índice 4 NO SE MUESTRA.</span>
+  <span class="n">listaA</span><span class="p">[:</span><span class="mi">4</span><span class="p">]</span>
+  <span class="c"># Elemento con índices 1, 2, 3</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span></code></pre></figure>
+
+<h3 id="métodos">Métodos</h3>
+<p>Sólo diremos que los métodos son funciones especiales, definidas para trabajar con cierto tipo de objetos. <a href="https://docs.python.org/3/tutorial/datastructures.html" target="_blank">Aquí podrás encontrar una lista de métodos válidos para listas</a>.</p>
+
+<p><a href="/py-condicionales/" style="float:right">Siguiente</a></p>
+
+
+        </li>
+      
+    
+      
+        <li>
+          <span class="post-meta">May 23, 2017</span>
+
+          <h2>
               <a class="post-link" href="/py-intro2/">Introducción (continuación)</a>
           </h2>
 
@@ -163,6 +315,7 @@
 <span class="n">r</span> <span class="o">=</span> <span class="n">h0</span> <span class="o">+</span> <span class="n">v</span><span class="o">*</span><span class="n">t</span>
 <span class="k">print</span><span class="p">(</span><span class="s">'La distancia recorrida por el movil luego de un tiempo t es: '</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="s">'m/s.'</span><span class="p">)</span></code></pre></figure>
 
+<p><a href="/py-intro3/" style="float:right">Siguiente</a></p>
 
 
         </li>

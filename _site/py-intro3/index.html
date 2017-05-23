@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introducción (continuación)</title>
+  <meta name="description" content="Listas Al igual que los números y las cadena de carácteres, las listas son un tipo de dato en python. Una lista consiste en un sucesión de elementos (números...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/py-intro3/">
+  <link rel="alternate" type="application/rss+xml" title="Talleres web" href="/feed.xml">
+  
+  
+</head>
+
+      <link href="/assets/BS/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+
+  <body>
+
+    <header class="site-header">
+  <div align="center">
+  <div class="Main-box">
+    <p class="Main-text" style="font-family: 'Graduate', sans-serif;">
+      talleres cet
+    </p>
+  </div>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Graduate');
+  @import url('https://fonts.googleapis.com/css?family=Oswald:500');
+  </style>
+<div class="site-nav">
+    <ul class="site-bar">
+
+      <li class="site-bar">
+        
+          
+          <a class="site-bar" href="/about/" style="font-family: 'Oswald', sans-serif;">Nosotros</a>
+          
+        
+          
+        
+          
+          <a class="site-bar" href="/talleres/" style="font-family: 'Oswald', sans-serif;">Talleres</a>
+          
+        
+          
+        
+          
+        
+      </li>
+      <li class="site-bar">
+        <a class="site-bar" href="/" style="font-family: 'Oswald', sans-serif;">inicio</a>
+      </li>
+    </ul>
+
+
+</div>
+
+</header>
+
+
+
+    <main class="page-content" aria-label="Content">
+
+            <div class="wrapper">
+              <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Introducción (continuación)</h1>
+    <p class="post-meta"><time datetime="2017-05-23T18:43:05-03:00" itemprop="datePublished">May 23, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h1 id="listas">Listas</h1>
+<p>Al igual que los números y las cadena de carácteres, las listas son un tipo de dato en python. Una lista consiste en un sucesión de elementos (números, carácteres e incluso listas), separados por coma y encerrada por <code class="highlighter-rouge">[]</code>.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Ejemplo de lista</span>
+  <span class="n">listaA</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="bp">True</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="s">'.1'</span><span class="p">,</span> <span class="s">'.2'</span><span class="p">,</span> <span class="s">'.3'</span><span class="p">]</span></code></pre></figure>
+
+<h2 id="algunas-características-de-listas">Algunas características de listas</h2>
+<ol>
+  <li>Pueden contener elementos de diferentes tipos.</li>
+  <li>A cada elemento le corresponde un índice.</li>
+  <li>Existen <code class="highlighter-rouge">métodos</code> para modificar las listas.</li>
+</ol>
+
+<h3 id="indexación">Indexación</h3>
+<p>Tomando como ejemplo la lista construida previamente, a cada uno de sus elementos le corresponde un índice de acuerdo a su posición. Contando de izquierda a derecha, al primer elemento le corresponde el índice 0.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Para mostrar el elemento de índice 0.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="c"># Para mostrar el elemento en la segunda posición</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span></code></pre></figure>
+
+<p>También se acepta contar de derecha a izquierda, en este caso, al primer elemento le corresponde el índice -1.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Para mostrar el último elemento, o el primero, contando de derecha a izquierda.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+  <span class="c"># Para mostrar el anteúltimo elemento.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span></code></pre></figure>
+
+<p><strong>Es interesante hacer notar que a cada elemento de un <code class="highlighter-rouge">string</code> también le corresponde un índice.</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">string</span> <span class="o">=</span> <span class="s">'Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz'</span>
+  <span class="c"># Primera letra</span>
+  <span class="n">string</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></code></pre></figure>
+
+<p>Por medio de los índices es posible modificar la lista (o string).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Modificar el tercer elemento de la lista.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s">'d'</span></code></pre></figure>
+
+<p>Nos pueden interesar ciertos elementos.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c"># Todos los elementos desde la tercera posición.</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+  <span class="c"># Todos los elementos desde la primera posición hasta la cuarta inclusive.</span>
+  <span class="c"># Cuarta posición: índice 3.</span>
+  <span class="c"># El elemento de índice 4 NO SE MUESTRA.</span>
+  <span class="n">listaA</span><span class="p">[:</span><span class="mi">4</span><span class="p">]</span>
+  <span class="c"># Elemento con índices 1, 2, 3</span>
+  <span class="n">listaA</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span></code></pre></figure>
+
+<h3 id="métodos">Métodos</h3>
+<p>Sólo diremos que los métodos son funciones especiales, definidas para trabajar con cierto tipo de objetos. <a href="https://docs.python.org/3/tutorial/datastructures.html" target="_blank">Aquí podrás encontrar una lista de métodos válidos para listas</a>.</p>
+
+<p><a href="/py-condicionales/" style="float:right">Siguiente</a></p>
+
+  </div>
+
+  
+</article>
+
+            </div>
+
+    </main>
+<div id="footer">
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Talleres web</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Talleres web
+            
+            </li>
+            
+            <li><a href="mailto:talleres.cet.frre@gmail.com">talleres.cet.frre@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Este es el sitio web de la Comisión de Talleres del CET, donde encontrarás todo lo referido a nuestras actividades.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+</div>
+  </body>
+
+</html>

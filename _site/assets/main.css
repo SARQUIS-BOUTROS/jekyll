@@ -1,10 +1,18 @@
 /**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
  * Basic styling
  */
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  text-align: justify;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -101,136 +109,21 @@ pre {
     padding-left: 0; }
 
 /**
- * Tables
- */
- table {
- 	background: #f5f5f5;
- 	border-collapse: separate;
- 	box-shadow: inset 0 1px 0 #fff;
- 	font-size: 12px;
- 	line-height: 24px;
- 	margin:auto;
- 	text-align: center;
- 	width: 800px;
- }
-
- th {
-	background: url(http://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
-	border-left: 1px solid #555;
-	border-right: 1px solid #777;
-	border-top: 1px solid #555;
-	border-bottom: 1px solid #333;
-	box-shadow: inset 0 1px 0 #999;
-	color: #fff;
-  font-weight: bold;
-	padding: 10px 15px;
-	position: relative;
-	text-shadow: 0px 1px 0 #000;
-  text-align-last: center;
-}
-
-th:after {
-	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
-	content: '';
-	display: block;
-	height: 25%;
-	left: 0;
-	margin: 1px 0 0 0;
-	position: absolute;
-	top: 25%;
-	width: 100%;
-}
-
-th:first-child {
-	border-left: 1px solid #777;
-	box-shadow: inset 1px 1px 0 #999;
-}
-
-th:last-child {
-	box-shadow: inset -1px 1px 0 #999;
-}
-
-td {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #e8e8e8;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #e8e8e8;
-	padding: 10px 15px;
-	position: relative;
-	transition: all 300ms;
-}
-
-td:first-child {
-	box-shadow: inset 1px 0 0 #fff;
-}
-
-td:last-child {
-	border-right: 1px solid #e8e8e8;
-	box-shadow: inset -1px 0 0 #fff;
-}
-
-tr {
-	background: url(http://jackrugile.com/images/misc/noise-diagonal.png);
-
-}
-
-tr:nth-child(odd) td {
-	background: #f1f1f1 url(http://jackrugile.com/images/misc/noise-diagonal.png);
-}
-
-tr:last-of-type td {
-	box-shadow: inset 0 -1px 0 #fff;
-}
-
-tr:last-of-type td:first-child {
-	box-shadow: inset 1px -1px 0 #fff;
-}
-
-tr:last-of-type td:last-child {
-	box-shadow: inset -1px -1px 0 #fff;
-}
-
-tbody:hover td {
-	color: transparent;
-	text-shadow: 0 0 3px #aaa;
-}
-
-tbody:hover tr:hover td {
-	color: #444;
-	text-shadow: 0 1px 0 #fff;
-}
-
-
-      /** para el encabezado*/
-      .invento {
-      width: auto;
-        padding-top: 0%;
-        padding-right: 10% ;
-        padding-left: 10%;
-
-      position: relative;}
-        @media screen and (max-width: 800px) {
-          .invento {
-            max-width: -webkit-calc(800px - (10px));
-            max-width: calc(800px - (10px));
-            padding-right: 15px;
-            padding-left: 15px; } }
-
-/**
  * Wrapper
  */
 .wrapper {
-width: auto;
-  margin: auto;
-  padding-right: 10%;
-  padding-left: 10%; }
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      width: auto;
-
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
-
 
 /**
  * Clearfix
@@ -252,123 +145,74 @@ width: auto;
 /**
  * Site header
  */
- .site-header {
-   background: url(/assets/img/Header.jpg) center center;
-   background-size: cover;
-   border-top: 5px solid #424242;
-   border-bottom: 1px solid #e8e8e8;
-   min-height: 56px;
-   position: relative;}
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  position: relative; }
 
-   .Main-box {
-     background: rgba(76, 175, 80, 0.3);
-     border: 2px dashed black;
-     margin-top: 35px;
-     margin-bottom: 55px;
-     padding-top: 3%;
-     padding-bottom: 3%;
-     padding-left: 2%;
-     padding-right: 2%;
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
 
-     outline: 5px solid black;
-     outline-offset: 5px;
-     display: inline-block;
-     position: relative;
-
-   }
-
-   .Main-text {
-     text-align: center;
-     text-transform: uppercase;
-     font-size: 50px;
-     color: white;
-     text-shadow: 3px 2px black;
-   }
-
-   ul.site-bar {
-     list-style-type: none;
-     padding-top: 1%;
-     padding-bottom: 1%;
-     padding-left: 0%;
-     margin:auto;
-     overflow: auto;
-     background-color: rgba(50, 49, 42, 0.9);
-   }
-
-   li.site-bar  {
-     float: right;
-   }
-
-   a.site-bar  {
-     display: inline;
-     color: white;
-     text-align: center;
-     padding: 10px 10px;
-     text-transform: uppercase;
-   }
-
- /* Change the link color to #111 (black) on hover */
-   a.site-bar:hover {
-     background-color: #111;
-     text-decoration: none;
-   }
+.site-nav {
+  float: right;
+  line-height: 56px; }
+  .site-nav .menu-icon {
+    display: none; }
+  .site-nav .page-link {
+    color: #111;
+    line-height: 1.5; }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px; }
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      position: absolute;
+      top: 9px;
+      right: 15px;
+      background-color: #fdfdfd;
+      border: 1px solid #e8e8e8;
+      border-radius: 5px;
+      text-align: right; }
+      .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center; }
+        .site-nav .menu-icon > svg path {
+          fill: #424242; }
+      .site-nav .trigger {
+        clear: both;
+        display: none; }
+      .site-nav:hover .trigger {
+        display: block;
+        padding-bottom: 5px; }
+      .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px; }
+        .site-nav .page-link:not(:last-child) {
+          margin-right: 0; } }
 
 /**
  * Site footer
  */
 .site-footer {
-  background: url(/assets/img/footer.jpg) center center;
   border-top: 1px solid #e8e8e8;
-  padding-bottom: 3%
-
-
-  }
-
-  .site-nav {
-    float: inherit;
-    line-height: 30px; }
-    .site-nav .menu-icon {
-      display: block; }
-    .site-nav .page-link {
-      color: #111;
-      line-height: 1.5; }
-      .site-nav .page-link:not(:last-child) {
-        margin-right: 20px; }
-    @media screen and (max-width: 270px) {
-      .site-nav {
-        position: static;
-        top: 9px;
-        right: 15px;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
-        text-align: center; }
-        .site-nav .menu-icon {
-          display: block;
-          float: none;
-          width: 36px;
-          height: 26px;
-          align-content: center;
-          line-height: 0;
-          padding-top: 10px;
-          text-align: center; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-        .site-nav .trigger {
-          clear: both;
-          display: none; }
-        .site-nav:hover .trigger {
-          display: block;
-          padding-bottom: 0px; }
-        .site-nav .page-link {
-          display: block;
-          padding: 5px 10px;
-          margin-left: 0px; }
-          .site-nav .page-link:not(:last-child) {
-            margin-right: 0; } }
+  padding: 30px 0; }
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 0px; }
+  margin-bottom: 15px; }
 
 .contact-list,
 .social-media-list {
@@ -465,39 +309,6 @@ width: auto;
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
-
-/**
- * Contact form
- */
-.contact-form {
-  width: 100%;
-  border-radius: 25px;
-  border: 5px solid gray;
-  padding: 25px;
-  margin: 15px; }
-  .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px
-  }
-  input[type=text][name='Mensaje'] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-  input[type=submit] {
-    background-color: #3CBC8D;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-radius: 10px;
-    width: 100%;
-    padding: 18px 16px;
-  }
-
 
 /**
  * Syntax highlighting styles
