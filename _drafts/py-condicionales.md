@@ -51,7 +51,7 @@ Hay varios puntos por aclarar:
 2. La siguiente línea, después de los `:`, indica la acción a realizar en caso de que la condición se cumpla. Algo muy importante es respetar la `identación`, es decir, dejar cuatro espacios antes de escribir.
 
 # Bucles
-Sirven para automatizar ciertas operaciones e iterar. 
+Sirven para automatizar ciertas operaciones e iterar.
 ## Bucles con `for`
 
 Se utiliza para llevar a cabo una operación para cada uno de los elementos de un conjunto. En el siguiente ejemplo, se generan 10 valores enteros (de 0 a 9) por medio de la función `range()`. Para cada uno de esos elementos, se calcula su cuadrado y se almacena su valor en la variable x. En el siguiente paso se agrega el valor de x a la lista y luego de terminado el bucle se la imprime.
@@ -81,3 +81,5 @@ while len(lista3) < 10:
     i +=1
 print(lista3)
 {% endhighlight %}
+
+<a href='/py-funciones/' style="float:right">Siguiente</a>

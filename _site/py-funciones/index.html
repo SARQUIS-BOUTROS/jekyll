@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Funciones</title>
+  <meta name="description" content="Funciones Hasta aquí hemos visto muchas funciones definidas por python, para ver la lista completa has click aquí. Ahora veremos como definir nuestras propia...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/py-funciones/">
+  <link rel="alternate" type="application/rss+xml" title="Talleres web" href="/feed.xml">
+  
+  
+</head>
+
+      <link href="/assets/BS/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+
+  <body>
+
+    <header class="site-header">
+  <div align="center">
+  <div class="Main-box">
+    <p class="Main-text" style="font-family: 'Graduate', sans-serif;">
+      talleres cet
+    </p>
+  </div>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Graduate');
+  @import url('https://fonts.googleapis.com/css?family=Oswald:500');
+  </style>
+<div class="site-nav">
+    <ul class="site-bar">
+
+      <li class="site-bar">
+        
+          
+          <a class="site-bar" href="/about/" style="font-family: 'Oswald', sans-serif;">Nosotros</a>
+          
+        
+          
+        
+          
+          <a class="site-bar" href="/talleres/" style="font-family: 'Oswald', sans-serif;">Talleres</a>
+          
+        
+          
+        
+          
+        
+      </li>
+      <li class="site-bar">
+        <a class="site-bar" href="/" style="font-family: 'Oswald', sans-serif;">inicio</a>
+      </li>
+    </ul>
+
+
+</div>
+
+</header>
+
+
+
+    <main class="page-content" aria-label="Content">
+
+            <div class="wrapper">
+              <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Funciones</h1>
+    <p class="post-meta"><time datetime="2017-05-24T17:41:52-03:00" itemprop="datePublished">May 24, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<h1 id="funciones">Funciones</h1>
+
+<p>Hasta aquí hemos visto muchas funciones definidas por python, <a href="https://docs.python.org/3/library/functions.html">para ver la lista completa has click aquí</a>. Ahora veremos como definir nuestras propias funciones.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+  <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span></code></pre></figure>
+
+<ol>
+  <li>Al igual que con los condicionales y bucles, aquí también hay un término específico: <code class="highlighter-rouge">def</code>.</li>
+  <li>El nombre de la función es arbitrario y entre <code class="highlighter-rouge">()</code> se indican las variables. Los <code class="highlighter-rouge">:</code> al final de la sentencia no pueden faltar.</li>
+  <li>Luego de los <code class="highlighter-rouge">:</code>, las líneas siguientes deben respetar la identación.</li>
+  <li>El término <code class="highlighter-rouge">return</code> indica que la función devuelve un valor. Este valor puede ser luego asignado a una variable y ser usado en cálculos futuros. Si no quisiéramos usar el valor que devuelve la función, sino simplemente verlo, alcanzaría con escribir <code class="highlighter-rouge">print(x * y)</code>.</li>
+  <li>Cualquier comando después de la línea con <code class="highlighter-rouge">return</code> no formará parte de la definición de la función.</li>
+</ol>
+
+<h2 id="funciones-y-condicionales">Funciones y condicionales</h2>
+<p>Empecemos corriendo el siguiente programa y veamos lo que ocurre.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">mov_cal</span><span class="p">(</span><span class="n">r0</span><span class="p">,</span> <span class="n">v0</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
+    <span class="s">'''
+    Esta función calcula el desplazamiento  y la velocidad de un móvil que se mueve con Movimiento Rectilíneo Uniforme o Movimiento Rectilíneo Uniformemente Variado.
+    '''</span>
+    <span class="k">if</span> <span class="n">mov</span> <span class="o">==</span> <span class="s">'mru'</span><span class="p">:</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">r0</span> <span class="o">+</span> <span class="n">v0</span> <span class="o">*</span> <span class="n">t</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">v0</span>
+        <span class="k">return</span> <span class="n">r</span><span class="p">,</span> <span class="n">v</span>
+    <span class="k">elif</span> <span class="n">mov</span> <span class="o">==</span> <span class="s">'mruv'</span><span class="p">:</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">r0</span> <span class="o">+</span> <span class="n">v0</span> <span class="o">*</span> <span class="n">t</span> <span class="o">+</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">a</span> <span class="o">*</span> <span class="n">t</span> <span class="o">**</span> <span class="mi">2</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">v0</span> <span class="o">+</span> <span class="n">a</span> <span class="o">*</span> <span class="n">t</span>
+        <span class="k">return</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span>
+
+<span class="n">mov</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'¿El móvil se mueve con MRU o MRUV? '</span><span class="p">)</span>
+<span class="n">mov</span> <span class="o">=</span> <span class="n">mov</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">mov</span> <span class="o">==</span> <span class="s">'mru'</span><span class="p">:</span>
+    <span class="n">r0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Posición inicial: '</span><span class="p">))</span>
+    <span class="n">v0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Velocidad inicial: '</span><span class="p">))</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Tiempo: '</span><span class="p">))</span>
+    <span class="n">r</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">mov_cal</span><span class="p">(</span><span class="n">r0</span><span class="p">,</span> <span class="n">v0</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">((</span><span class="s">'El movil ha recorrido {} m en {} s, alcanzando una velocidad final de {}.'</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">v</span><span class="p">))</span>
+<span class="k">elif</span> <span class="n">mov</span> <span class="o">==</span> <span class="s">'mruv'</span><span class="p">:</span>
+    <span class="n">r0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Posición inicial: '</span><span class="p">))</span>
+    <span class="n">v0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Velocidad inicial: '</span><span class="p">))</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Aceleración: '</span><span class="p">))</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">'Tiempo: '</span><span class="p">))</span>
+    <span class="n">r</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">mov_cal</span><span class="p">(</span><span class="n">r0</span><span class="p">,</span> <span class="n">v0</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">((</span><span class="s">'El móvil con una aceleración constante de {} m2/s, se desplaza {} m en {} s y alcanza una velocidad final de {} m/s'</span><span class="p">)</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">v</span><span class="p">))</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="nb">ValueError</span><span class="p">(</span><span class="s">'No se acepta este tipo de movimiento.'</span><span class="p">)</span></code></pre></figure>
+
+<ol>
+  <li>El programa nos pregunta que tipo de movimiento tiene el móvil. A continuación pide que ingresemos los valores de posición y velocidad iniciales, junto con el tiempo transcurrido. Sólo si el móvil se mueve con MRUV, el programa pide que se ingrese un valor de aceleración. Al final arroja un mensaje con los valores calculados de desplazamiento y velocidad final.
+    <ul>
+      <li>Analizando el programa, se observa el uso de condicionales. El usuario ingresa el tipo de movimiento y a partir de esto, el programa puede seguir diferentes caminos, dependiendo de la condición que se cumpla.</li>
+      <li>La variable <code class="highlighter-rouge">mov</code> se ve modificada por el método <code class="highlighter-rouge">lower()</code>, que transforma a minúscula las letras. Entonces, no importa que el usuario escriba MRU o mru, el programa lo transforma a mru y continúa con los pasos siguientes.</li>
+      <li>Los datos ingresados no se pueden utilizar de inmediato en cálculos porque son strings. La función <code class="highlighter-rouge">float()</code> los transforma en números.</li>
+    </ul>
+  </li>
+  <li>Una vez ingresados los datos, se usa la función <code class="highlighter-rouge">mov_cal</code> definida antes en el programa.
+    <ul>
+      <li>La función también usa condicionales para usar diferentes ecuaciones, de acuerdo al tipo de movimiento.</li>
+      <li>La función tiene cuatro argumentos: <code class="highlighter-rouge">r0, v0, a, t</code> y devuelve <code class="highlighter-rouge">a, b</code>.</li>
+      <li>La línea <code class="highlighter-rouge">r, v = mov_cal(r0, v0, a, t)</code> es lo mismo que llamar <em>y</em> al valor de f(x=5). La función calcula dos valores, la posición y la velocidad finales, y los asigna a las variables r y v.</li>
+    </ul>
+  </li>
+  <li>Si se ingresa algo distinto de MRU o MRUV, el programa muestra un mensaje de error. Esto se puede hacer usando la expresión <code class="highlighter-rouge">raise ValueError('mensaje')</code>.</li>
+</ol>
+
+<h2 id="funciones-y-bucles">Funciones y Bucles</h2>
+<p>La siguiete función inspecciona cada elemento de una lista y muestra el mayor de ellos.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">mimax</span><span class="p">(</span><span class="n">xs</span><span class="p">):</span>
+    <span class="s">''' Encuentra el mayor valor de una lista. '''</span>
+    <span class="n">inicio</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xs</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="n">inicio</span><span class="p">:</span>
+            <span class="n">inicio</span> <span class="o">=</span> <span class="n">i</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></figure>
+
+<p><a href="/py-matplotlib/" style="float:right">Siguiente</a></p>
+
+  </div>
+
+  
+</article>
+
+            </div>
+
+    </main>
+<div id="footer">
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Talleres web</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Talleres web
+            
+            </li>
+            
+            <li><a href="mailto:talleres.cet.frre@gmail.com">talleres.cet.frre@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Este es el sitio web de la Comisión de Talleres del CET, donde encontrarás todo lo referido a nuestras actividades.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+</div>
+  </body>
+
+</html>
